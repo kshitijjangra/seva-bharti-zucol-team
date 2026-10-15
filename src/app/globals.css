@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+/*
+  Sewa Bharti design system.
+  Palette sampled from the live site (sewabhartirajasthan.org) and the logo:
+    saffron  #FF9933 / #FF9A35  (primary)
+    blue     #0789D1            (logo blue, secondary)
+    footer   #0F1115            (near-black neutral)
+  Light, readable, community-oriented. Accents reserved for headings/links/actions.
+*/
+
+@theme {
+  /* Saffron (primary) */
+  --color-saffron-50: #fff6ec;
+  --color-saffron-100: #ffe8cc;
+  --color-saffron-200: #ffcf99;
+  --color-saffron-300: #ffb766;
+  --color-saffron-400: #ffa347;
+  --color-saffron-500: #ff9933;
+  --color-saffron-600: #e8841f;
+  --color-saffron-700: #c26a12;
+  --color-saffron-800: #96510e;
+  --color-saffron-900: #6f3c0c;
+
+  /* Sewa blue (secondary, from logo) */
+  --color-sewablue-50: #e9f6fd;
+  --color-sewablue-100: #c9e8fa;
+  --color-sewablue-200: #92d0f3;
+  --color-sewablue-300: #54b4e8;
+  --color-sewablue-400: #1f9bdd;
+  --color-sewablue-500: #0789d1;
+  --color-sewablue-600: #056ea9;
+  --color-sewablue-700: #055883;
+  --color-sewablue-800: #06445f;
+  --color-sewablue-900: #073544;
+
+  /* Neutrals */
+  --color-ink: #1f2328;
+  --color-ink-soft: #4a4f57;
+  --color-cream: #fffaf3;
+  --color-footer: #0f1115;
+
+  /* Fonts (CSS variables injected by next/font in layout.tsx) */
+  --font-sans: var(--font-latin), var(--font-devanagari), ui-sans-serif, system-ui,
+    sans-serif;
+  --font-devanagari: var(--font-devanagari), var(--font-latin), sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Devanagari text needs a little extra line-height for stacked matras. */
+.font-hi,
+[lang="hi"] {
+  font-family: var(--font-devanagari);
+  line-height: 1.85;
+}
+
+/* Accessible focus states for keyboard users. */
+a:focus-visible,
+button:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid var(--color-sewablue-500);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+/* Reusable content width container. */
+.container-page {
+  width: 100%;
+  max-width: 72rem;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+}
