@@ -1,12 +1,13 @@
 # Sewa Bharti Website — Build Notes
 
-Next.js (App Router) + TypeScript + Tailwind CSS v4 static website for
+Next.js (App Router) + TypeScript + Tailwind CSS v4 + **Payload CMS 3** website for
 **Sewa Bharti Samiti Rajasthan**, built to the spec in `context/seva_bharti_claude_docs/`.
 
 ## Stack
-- Next.js 16.4.1 (App Router, Turbopack, static export of all routes)
+- Next.js 16.4.1 (App Router, Turbopack, Cache Components)
+- Two apps: `backend/` (Payload CMS 3.90, admin + API + Postgres, port 3001) and `frontend/` (public site, port 3000, reads the backend API). **Read `rules.md` first.**
 - TypeScript
-- Tailwind CSS v4 (`@theme` tokens in `src/app/globals.css`)
+- Tailwind CSS v4 (`@theme` tokens in `frontend/src/app/(frontend)/globals.css`)
 - Fonts: Noto Sans (Latin) + Noto Sans Devanagari via `next/font/google`
 
 ## Commands
@@ -18,12 +19,9 @@ Next.js (App Router) + TypeScript + Tailwind CSS v4 static website for
 `/` · `/about-us` · `/shiksha` · `/swavalamban` · `/samajik` · `/swasthya` · `/events` · `/contact`
 
 ## Content source
-All factual content is derived from the official site **sewabhartirajasthan.org**
-(approved reference), summarised faithfully — not copied verbatim. Content lives in
-typed files, separate from presentation:
-- `src/content/site.ts` — org details, mission, registration, nav, contact offices
-- `src/content/pillars.ts` — the four pillars and their real programmes
-- `src/content/events.ts` — real published seva activities
+All content is managed in the CMS (`/admin`). Schema: `backend/src/collections`, `backend/src/globals`.
+The original content (derived from **sewabhartirajasthan.org**) is loaded by `npm run seed`
+(in `backend/`) from `backend/src/seed/data/`.
 
 ### Verified facts used
 - Reg. No. 106/Rajasthan 1987-88 (16 July 1987); 80G/831/2007-2008; PAN AABTS4114N
@@ -36,9 +34,9 @@ dark footer `#0F1115`, cream background. Logo at `public/logo.png` (unaltered).
 
 ## Remaining placeholders (replace before publishing)
 Search the codebase for `[CONTENT REQUIRED` — current markers:
-1. **Pillar pages** (`src/components/PillarPage.tsx`) — official photographs and any
+1. **Pillar pages** (`frontend/src/components/PillarPage.tsx`, content in the CMS) — official photographs and any
    extra details per pillar.
-2. **Events page** (`src/content/events.ts`) — event photographs and newer events.
+2. **Events page** (Events in the CMS) — event photographs and newer events.
    Add only organisation-supplied images; do not fetch or invent photos.
 
 ## Things to confirm with the organisation
@@ -48,5 +46,5 @@ Search the codebase for `[CONTENT REQUIRED` — current markers:
   the registered office PIN is 302015, correspondence address shows 302007).
 - Whether pillar/event photographs may be reused from the existing site.
 
-## Not included (per scope lock)
-No CMS, admin, login, donation/payment flow, blog, or any page beyond the 8 approved.
+## CMS
+See `rules.md` for architecture, content, caching and security rules.

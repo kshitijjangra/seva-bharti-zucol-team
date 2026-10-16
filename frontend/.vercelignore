@@ -1,0 +1,7 @@
+# Never upload secrets or local build output. Leading "/" = project root only.
+.env
+.env.*
+!.env.example
+/node_modules
+/.next
+*.tsbuildinfo

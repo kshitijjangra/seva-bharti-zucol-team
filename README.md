@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sewa Bharti Samiti Rajasthan — Website + CMS
 
-## Getting Started
+Website for **Sewa Bharti Samiti Rajasthan**, with all content managed from a CMS.
+The project is two separate apps:
 
-First, run the development server:
+| App | Folder | What it is | Local URL |
+|---|---|---|---|
+| **Backend** | [`backend/`](backend/) | Payload CMS 3 — admin panel, REST API, PostgreSQL, media uploads | http://localhost:3001/admin |
+| **Frontend** | [`frontend/`](frontend/) | Public website (Next.js 16) — reads all content from the backend API | http://localhost:3000 |
+
+When content is saved in the CMS, the backend calls the frontend's `/api/revalidate` webhook so the website refreshes within seconds.
+
+## Run locally
+
+Requirements: Node.js 22, PostgreSQL 16+.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# 1. Backend
+cd backend
+cp .env.example .env     # fill in DATABASE_URL, PAYLOAD_SECRET and the shared secrets
+npm install
+npm run seed             # load the site content and images
+npm run dev              # http://localhost:3001/admin
+
+# 2. Frontend (new terminal, backend must be running)
+cd frontend
+cp .env.example .env     # CMS_URL + the same REVALIDATE_SECRET / FRONTEND_API_KEY as the backend
+npm install
+npm run dev              # http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deploy
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Backend:** any Node.js host or server with PostgreSQL (VPS, Railway, Render, …). Run `npx payload migrate`, then `npm run build && npm run start`.
+- **Frontend:** Vercel or any Node.js host. Set `CMS_URL` to the backend's public URL.
+- **Frontend without a backend:** build with `CMS_SNAPSHOT=1` to serve the exported content snapshot.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Documentation
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [`rules.md`](rules.md) — architecture, content rules, caching, security and the go-live checklist. **Read before changing code.**
+- [`PROJECT_NOTES.md`](PROJECT_NOTES.md) — background, verified facts and open questions.

@@ -1,0 +1,3198 @@
+{
+  "exportedAt": "2026-10-15T14:10:09.810Z",
+  "globals": {
+    "site-settings": {
+      "id": 1,
+      "name": "Sewa Bharti Samiti Rajasthan",
+      "nameHi": "सेवा भारती समिति, राजस्थान",
+      "shortName": "Sewa Bharti",
+      "brandTitle": "Sewa Bharti Rajasthan",
+      "tagline": "सेवा परमो धर्मः",
+      "taglineEn": "Service is the highest duty",
+      "logo": {
+        "id": 1,
+        "alt": "सेवा भारती समिति, राजस्थान — लोगो",
+        "updatedAt": "2026-10-15T11:17:50.599Z",
+        "createdAt": "2026-10-15T11:17:50.599Z",
+        "url": "/media/logo.png",
+        "thumbnailURL": "/media/logo-400x443.png",
+        "filename": "logo.png",
+        "mimeType": "image/png",
+        "filesize": 276958,
+        "width": 714,
+        "height": 790,
+        "focalX": 50,
+        "focalY": 50,
+        "sizes": {
+          "thumbnail": {
+            "url": "/media/logo-400x443.png",
+            "width": 400,
+            "height": 443,
+            "mimeType": "image/png",
+            "filesize": 145608,
+            "filename": "logo-400x443.png"
+          },
+          "card": {
+            "url": null,
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "hero": {
+            "url": null,
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          }
+        }
+      },
+      "introHi": "सेवा भारती समिति राजस्थान एक गैर-सरकारी संगठन है, जो आर्थिक एवं सामाजिक दृष्टि से पिछड़े तथा वंचित वर्गों के बीच नगरीय झुग्गी-झोपड़ी बस्तियों एवं ग्रामीण क्षेत्रों में सेवा कार्य करता है। संस्था निशुल्क शिक्षा, निशुल्क चिकित्सा, कौशल विकास एवं सामाजिक समरसता के क्षेत्र में कार्यरत है।",
+      "introEn": "Sewa Bharti Samiti Rajasthan is a non-governmental organisation working among economically and socially deprived communities across urban settlements and rural areas of Rajasthan, through free education, free healthcare, skill development and social harmony programmes.",
+      "primaryEmail": "sewabhartijpr@gmail.com",
+      "offices": [
+        {
+          "id": "6ad0bca3200654d3d9637a7d",
+          "name": "Regional Office (Kshetriya Karyalay)",
+          "nameHi": "राजस्थान क्षेत्रीय कार्यालय",
+          "address": "Sewa Sadan, Sahkar Marg, Lalkothi, Jaipur, Rajasthan - 302007",
+          "email": "sewabhartijpr@gmail.com",
+          "role": null,
+          "phones": [
+            {
+              "id": "6ad0bca3200654d3d9637a7b",
+              "number": "0141-2741222"
+            },
+            {
+              "id": "6ad0bca3200654d3d9637a7c",
+              "number": "0141-2744545"
+            }
+          ]
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a7f",
+          "name": "Jaipur Prant Office",
+          "nameHi": "सेवा भारती समिति, जयपुर प्रान्त",
+          "address": "Suraj Bhawan, Sahkar Lane, Sahkar Marg, Lal Kothi, Jaipur",
+          "email": "sewabhartijpr@gmail.com",
+          "role": "प्रान्त मंत्री",
+          "phones": [
+            {
+              "id": "6ad0bca3200654d3d9637a7e",
+              "number": "9352008347"
+            }
+          ]
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a82",
+          "name": "Kota Office",
+          "nameHi": "सेवा भारती समिति, कोटा",
+          "address": "Suraj Bhawan, 121-A, Ballabh Badi, Gumanpura, Kota - 324007",
+          "email": null,
+          "role": "प्रान्त मंत्री",
+          "phones": [
+            {
+              "id": "6ad0bca3200654d3d9637a80",
+              "number": "9460941842"
+            },
+            {
+              "id": "6ad0bca3200654d3d9637a81",
+              "number": "9352008347"
+            }
+          ]
+        }
+      ],
+      "topBarText": "पंजीकृत समाजसेवी संस्था · Reg. No. 106/Rajasthan 1987-88 · 80G आयकर छूट प्राप्त",
+      "topBarPhone": null,
+      "socials": [],
+      "footerQuickLinksHeading": "त्वरित लिंक",
+      "footerContactHeading": "संपर्क",
+      "copyrightText": "COPYRIGHT © 2026 ALL RIGHT RESERVED BY SEWA BHARTI SAMITI RAJASTHAN",
+      "orgUrl": "https://sewabhartirajasthan.org",
+      "developerCreditPrefix": "Developed & Managed by",
+      "developerName": "ZUCOL",
+      "developerUrl": "https://www.zucol.in/",
+      "metaTitle": "Sewa Bharti Samiti Rajasthan — Service is the highest duty",
+      "metaDescription": "Sewa Bharti Samiti Rajasthan is a non-governmental organisation working among economically and socially deprived communities across urban settlements and rural areas of Rajasthan, through free education, free healthcare, skill development and social harmony programmes.",
+      "updatedAt": "2026-10-15T11:53:50.964Z",
+      "createdAt": "2026-10-15T11:17:50.854Z",
+      "globalType": "site-settings"
+    },
+    "navigation": {
+      "id": 1,
+      "headerItems": [
+        {
+          "id": "6ad0bca3200654d3d9637a83",
+          "label": "होम",
+          "href": "/",
+          "pillarsDropdown": false,
+          "children": []
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a84",
+          "label": "हमारे बारे में",
+          "href": "/about-us",
+          "pillarsDropdown": false,
+          "children": []
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a85",
+          "label": "सेवा कार्य",
+          "href": null,
+          "pillarsDropdown": true,
+          "children": []
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a86",
+          "label": "कार्यक्रम",
+          "href": "/events",
+          "pillarsDropdown": false,
+          "children": []
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a87",
+          "label": "संपर्क",
+          "href": "/contact",
+          "pillarsDropdown": false,
+          "children": []
+        }
+      ],
+      "footerLinks": [
+        {
+          "id": "6ad0bca3200654d3d9637a88",
+          "label": "हमारे बारे में",
+          "href": "/about-us"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a89",
+          "label": "शिक्षा",
+          "href": "/shiksha"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a8a",
+          "label": "स्वावलंबन",
+          "href": "/swavalamban"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a8b",
+          "label": "सामाजिक",
+          "href": "/samajik"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a8c",
+          "label": "स्वास्थ्य",
+          "href": "/swasthya"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a8d",
+          "label": "कार्यक्रम",
+          "href": "/events"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a8e",
+          "label": "संपर्क",
+          "href": "/contact"
+        }
+      ],
+      "updatedAt": "2026-10-15T11:17:50.860Z",
+      "createdAt": "2026-10-15T11:17:50.860Z",
+      "globalType": "navigation"
+    },
+    "home-page": {
+      "id": 1,
+      "hero": {
+        "badge": "पंजीकृत समाजसेवी संस्था · स्थापना 1987",
+        "tagline": "सेवा परमो धर्मः",
+        "title": "Sewa Bharti Samiti Rajasthan",
+        "intro": "सेवा भारती समिति राजस्थान एक गैर-सरकारी संगठन है, जो आर्थिक एवं सामाजिक दृष्टि से पिछड़े तथा वंचित वर्गों के बीच नगरीय झुग्गी-झोपड़ी बस्तियों एवं ग्रामीण क्षेत्रों में सेवा कार्य करता है। संस्था निशुल्क शिक्षा, निशुल्क चिकित्सा, कौशल विकास एवं सामाजिक समरसता के क्षेत्र में कार्यरत है।",
+        "image": null,
+        "primaryCta": {
+          "label": "हमारे बारे में",
+          "href": "/about-us"
+        },
+        "secondaryCta": {
+          "label": "संपर्क करें",
+          "href": "/contact"
+        }
+      },
+      "stats": [
+        {
+          "id": "6ad0bca3200654d3d9637a8f",
+          "value": "1987",
+          "suffix": "",
+          "animate": false,
+          "label": "स्थापना वर्ष"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a90",
+          "value": "1610",
+          "suffix": "+",
+          "animate": true,
+          "label": "सेवा कार्य"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a91",
+          "value": "33",
+          "suffix": "+",
+          "animate": true,
+          "label": "जिलों में उपस्थिति"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a92",
+          "value": "80G",
+          "suffix": "",
+          "animate": false,
+          "label": "आयकर छूट प्राप्त"
+        }
+      ],
+      "pillarsHeading": {
+        "eyebrow": "Our Four Pillars",
+        "title": "हमारे चार आयाम"
+      },
+      "eventsTeaser": {
+        "title": "सेवा गतिविधियाँ",
+        "text": "राज्य भर में संचालित सेवा कार्यों की एक झलक।",
+        "cta": {
+          "label": "कार्यक्रम देखें",
+          "href": "/events"
+        }
+      },
+      "seo": {
+        "metaTitle": null,
+        "metaDescription": null
+      },
+      "updatedAt": "2026-10-15T11:52:59.805Z",
+      "createdAt": "2026-10-15T11:17:50.865Z",
+      "globalType": "home-page"
+    },
+    "about-page": {
+      "id": 1,
+      "header": {
+        "eyebrow": "About Us",
+        "title": "सेवा भारती समिति, राजस्थान — एक परिचय",
+        "subtitle": "सेवा भारती समिति राजस्थान एक गैर-सरकारी संगठन है, जो आर्थिक एवं सामाजिक दृष्टि से पिछड़े तथा वंचित वर्गों के बीच नगरीय झुग्गी-झोपड़ी बस्तियों एवं ग्रामीण क्षेत्रों में सेवा कार्य करता है। संस्था निशुल्क शिक्षा, निशुल्क चिकित्सा, कौशल विकास एवं सामाजिक समरसता के क्षेत्र में कार्यरत है।"
+      },
+      "sections": [
+        {
+          "id": "6ad0bca3200654d3d9637a93",
+          "heading": "परिचय",
+          "body": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "children": [
+                    {
+                      "mode": "normal",
+                      "text": "सेवा भारती समिति राजस्थान एक गैर-सरकारी संगठन है, जो आर्थिक एवं सामाजिक दृष्टि से पिछड़े तथा वंचित वर्गों के बीच नगरीय झुग्गी-झोपड़ी बस्तियों एवं ग्रामीण क्षेत्रों में सेवा कार्य करता है। संस्था निशुल्क शिक्षा, निशुल्क चिकित्सा, कौशल विकास एवं सामाजिक समरसता के क्षेत्र में कार्यरत है।",
+                      "type": "text",
+                      "style": "",
+                      "detail": 0,
+                      "format": 0,
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "textStyle": "",
+                  "textFormat": 0
+                },
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "children": [
+                    {
+                      "mode": "normal",
+                      "text": "संस्था द्वारा संपूर्ण राजस्थान क्षेत्र में सीधे ही या संलग्न संस्थाओं के माध्यम से 1610 सेवा कार्य संचालित किए जा रहे हैं।",
+                      "type": "text",
+                      "style": "",
+                      "detail": 0,
+                      "format": 0,
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "textStyle": "",
+                  "textFormat": 0
+                }
+              ],
+              "direction": "ltr"
+            }
+          }
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a94",
+          "heading": "हमारा उद्देश्य",
+          "body": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "children": [
+                    {
+                      "mode": "normal",
+                      "text": "समाज के सामाजिक, शैक्षणिक एवं आर्थिक रूप से पिछड़े, वंचित एवं उपेक्षित बंधुओं का विकास कर उन्हें आत्मनिर्भर, स्वाभिमानी एवं स्वावलंबी बनाकर स्वस्थ, समरस एवं संगठित समाज का निर्माण करना।",
+                      "type": "text",
+                      "style": "",
+                      "detail": 0,
+                      "format": 0,
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "textStyle": "",
+                  "textFormat": 0
+                },
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "children": [
+                    {
+                      "mode": "normal",
+                      "text": "सभी सेवा कार्य संप्रदाय, जाति, वर्ग, प्रांत, भाषा एवं मत-मतांतर के भेदभाव के बिना संचालित किए जाते हैं। किसी भी प्रकार की दैवीय आपदा — जैसे बाढ़, भूकंप, अकाल, अग्निकांड एवं महामारी — में भी यथासंभव सहयोग किया जाता है।",
+                      "type": "text",
+                      "style": "",
+                      "detail": 0,
+                      "format": 0,
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "textStyle": "",
+                  "textFormat": 0
+                }
+              ],
+              "direction": "ltr"
+            }
+          }
+        }
+      ],
+      "pillarsHeading": "हमारे चार आयाम",
+      "detailsHeading": "संस्था का विवरण",
+      "details": [
+        {
+          "id": "6ad0bca3200654d3d9637a95",
+          "label": "पंजीयन क्रमांक",
+          "value": "106/Rajasthan 1987-88"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a96",
+          "label": "पंजीयन दिनांक",
+          "value": "16 July 1987"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a97",
+          "label": "80जी छूट",
+          "value": "80G/831/2007-2008, dated 24-08-2007"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a98",
+          "label": "PAN",
+          "value": "AABTS4114N"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a99",
+          "label": "पंजीकृत कार्यालय",
+          "value": "Sewa Sadan, Lalkothi Yojana, Sahkar Marg, Sahkar Lane, Jaipur - 302015, Rajasthan"
+        }
+      ],
+      "seo": {
+        "metaTitle": null,
+        "metaDescription": null
+      },
+      "updatedAt": "2026-10-15T11:53:21.191Z",
+      "createdAt": "2026-10-15T11:17:50.869Z",
+      "globalType": "about-page"
+    },
+    "contact-page": {
+      "id": 1,
+      "header": {
+        "eyebrow": "Contact Us",
+        "title": "संपर्क करें",
+        "subtitle": "नीचे दिए गए कार्यालयों के माध्यम से सेवा भारती समिति, राजस्थान से संपर्क करें।"
+      },
+      "emailBox": {
+        "heading": "ईमेल",
+        "text": "सामान्य जानकारी हेतु संपर्क करें:"
+      },
+      "seo": {
+        "metaTitle": null,
+        "metaDescription": null
+      },
+      "updatedAt": "2026-10-15T11:53:42.031Z",
+      "createdAt": "2026-10-15T11:17:50.873Z",
+      "globalType": "contact-page"
+    },
+    "events-page": {
+      "id": 1,
+      "header": {
+        "eyebrow": "Events",
+        "title": "कार्यक्रम एवं सेवा गतिविधियाँ",
+        "subtitle": "राजस्थान भर में संचालित सेवा कार्यों की झलक।"
+      },
+      "recentHeading": {
+        "eyebrow": "Recent Activities",
+        "title": "हाल की सेवा गतिविधियाँ"
+      },
+      "readMoreLabel": "विस्तार से पढ़ें",
+      "galleryHeading": {
+        "eyebrow": "Photo Gallery",
+        "title": "फोटो गैलरी"
+      },
+      "galleryCaption": "सेवा कार्यों की झलकियाँ",
+      "gallery": [
+        {
+          "id": 5,
+          "alt": "सेवा भारती सामाजिक कार्यक्रम",
+          "updatedAt": "2026-10-15T11:17:50.655Z",
+          "createdAt": "2026-10-15T11:17:50.655Z",
+          "url": "/media/gallery-1.png",
+          "thumbnailURL": "/media/gallery-1.png",
+          "filename": "gallery-1.png",
+          "mimeType": "image/png",
+          "filesize": 155877,
+          "width": 300,
+          "height": 200,
+          "focalX": 50,
+          "focalY": 50,
+          "sizes": {
+            "thumbnail": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "card": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "hero": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            }
+          }
+        },
+        {
+          "id": 10,
+          "alt": "सेवा भारती सामाजिक समरसता कार्यक्रम",
+          "updatedAt": "2026-10-15T11:17:50.703Z",
+          "createdAt": "2026-10-15T11:17:50.703Z",
+          "url": "/media/gallery-3.png",
+          "thumbnailURL": "/media/gallery-3.png",
+          "filename": "gallery-3.png",
+          "mimeType": "image/png",
+          "filesize": 135292,
+          "width": 300,
+          "height": 200,
+          "focalX": 50,
+          "focalY": 50,
+          "sizes": {
+            "thumbnail": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "card": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "hero": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            }
+          }
+        },
+        {
+          "id": 11,
+          "alt": "सेवा भारती गतिविधि",
+          "updatedAt": "2026-10-15T11:17:50.707Z",
+          "createdAt": "2026-10-15T11:17:50.707Z",
+          "url": "/media/gallery-4.png",
+          "thumbnailURL": "/media/gallery-4.png",
+          "filename": "gallery-4.png",
+          "mimeType": "image/png",
+          "filesize": 141417,
+          "width": 300,
+          "height": 200,
+          "focalX": 50,
+          "focalY": 50,
+          "sizes": {
+            "thumbnail": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "card": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "hero": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            }
+          }
+        },
+        {
+          "id": 13,
+          "alt": "सेवा भारती सेवा कार्य",
+          "updatedAt": "2026-10-15T11:17:50.729Z",
+          "createdAt": "2026-10-15T11:17:50.729Z",
+          "url": "/media/gallery-6.png",
+          "thumbnailURL": "/media/gallery-6.png",
+          "filename": "gallery-6.png",
+          "mimeType": "image/png",
+          "filesize": 134447,
+          "width": 300,
+          "height": 200,
+          "focalX": 50,
+          "focalY": 50,
+          "sizes": {
+            "thumbnail": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "card": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "hero": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            }
+          }
+        },
+        {
+          "id": 14,
+          "alt": "सेवा भारती कार्यक्रम",
+          "updatedAt": "2026-10-15T11:17:50.734Z",
+          "createdAt": "2026-10-15T11:17:50.734Z",
+          "url": "/media/gallery-7.png",
+          "thumbnailURL": "/media/gallery-7.png",
+          "filename": "gallery-7.png",
+          "mimeType": "image/png",
+          "filesize": 160057,
+          "width": 300,
+          "height": 200,
+          "focalX": 50,
+          "focalY": 50,
+          "sizes": {
+            "thumbnail": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "card": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "hero": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            }
+          }
+        },
+        {
+          "id": 15,
+          "alt": "सेवा भारती गतिविधि",
+          "updatedAt": "2026-10-15T11:17:50.739Z",
+          "createdAt": "2026-10-15T11:17:50.739Z",
+          "url": "/media/gallery-8.png",
+          "thumbnailURL": "/media/gallery-8.png",
+          "filename": "gallery-8.png",
+          "mimeType": "image/png",
+          "filesize": 128992,
+          "width": 300,
+          "height": 200,
+          "focalX": 50,
+          "focalY": 50,
+          "sizes": {
+            "thumbnail": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "card": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "hero": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            }
+          }
+        },
+        {
+          "id": 16,
+          "alt": "सेवा भारती सेवा कार्य",
+          "updatedAt": "2026-10-15T11:17:50.744Z",
+          "createdAt": "2026-10-15T11:17:50.744Z",
+          "url": "/media/gallery-9.png",
+          "thumbnailURL": "/media/gallery-9.png",
+          "filename": "gallery-9.png",
+          "mimeType": "image/png",
+          "filesize": 117922,
+          "width": 300,
+          "height": 200,
+          "focalX": 50,
+          "focalY": 50,
+          "sizes": {
+            "thumbnail": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "card": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "hero": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            }
+          }
+        },
+        {
+          "id": 6,
+          "alt": "सेवा भारती कार्यक्रम",
+          "updatedAt": "2026-10-15T11:17:50.659Z",
+          "createdAt": "2026-10-15T11:17:50.659Z",
+          "url": "/media/gallery-10.png",
+          "thumbnailURL": "/media/gallery-10.png",
+          "filename": "gallery-10.png",
+          "mimeType": "image/png",
+          "filesize": 142583,
+          "width": 300,
+          "height": 200,
+          "focalX": 50,
+          "focalY": 50,
+          "sizes": {
+            "thumbnail": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "card": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "hero": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            }
+          }
+        },
+        {
+          "id": 7,
+          "alt": "सेवा भारती गतिविधि",
+          "updatedAt": "2026-10-15T11:17:50.663Z",
+          "createdAt": "2026-10-15T11:17:50.663Z",
+          "url": "/media/gallery-11.png",
+          "thumbnailURL": "/media/gallery-11.png",
+          "filename": "gallery-11.png",
+          "mimeType": "image/png",
+          "filesize": 128606,
+          "width": 300,
+          "height": 200,
+          "focalX": 50,
+          "focalY": 50,
+          "sizes": {
+            "thumbnail": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "card": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "hero": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            }
+          }
+        }
+      ],
+      "guestsHeading": {
+        "eyebrow": "Our Guests",
+        "title": "अतिथिगण"
+      },
+      "guestsNote": "नमूना प्रविष्टियाँ — वास्तविक अतिथि विवरण शीघ्र अद्यतन किए जाएंगे।",
+      "guests": [
+        {
+          "id": "6ad0bca3200654d3d9637a9a",
+          "name": "श्री ओमप्रकाश गुप्ता",
+          "designation": "संरक्षक",
+          "testimonial": "सेवा भारती वर्षों से समाज के वंचित वर्ग की निःस्वार्थ सेवा कर रही है। इनका प्रत्येक सेवा कार्य समाज के लिए प्रेरणा का स्रोत है।",
+          "photo": null
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a9b",
+          "name": "डॉ. अनिल माहेश्वरी",
+          "designation": "मुख्य अतिथि",
+          "testimonial": "शिक्षा, स्वास्थ्य एवं स्वावलंबन के क्षेत्र में सेवा भारती का योगदान सराहनीय है। ऐसे संगठन समरस समाज की नींव मजबूत करते हैं।",
+          "photo": null
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a9c",
+          "name": "श्रीमती सरोज देवी",
+          "designation": "विशिष्ट अतिथि",
+          "testimonial": "सेवा परमो धर्मः के भाव से कार्य करते हुए कार्यकर्ता जिस समर्पण से सेवा करते हैं, वह अत्यंत प्रशंसनीय एवं अनुकरणीय है।",
+          "photo": null
+        }
+      ],
+      "seo": {
+        "metaTitle": null,
+        "metaDescription": null
+      },
+      "updatedAt": "2026-10-15T12:04:14.677Z",
+      "createdAt": "2026-10-15T11:17:50.877Z",
+      "globalType": "events-page"
+    },
+    "ui-strings": {
+      "id": 1,
+      "skipLink": "Skip to main content",
+      "a11y": {
+        "menuOpen": "Open menu",
+        "menuClose": "Close menu",
+        "homeLinkLabel": "home",
+        "eventPhotosHeading": "कार्यक्रम की तस्वीरें",
+        "showPhoto": "तस्वीर {n} दिखाएं",
+        "prevGuest": "पिछला अतिथि",
+        "nextGuest": "अगला अतिथि",
+        "showGuest": "अतिथि {n} दिखाएं"
+      },
+      "pillarCardCta": "और जानें",
+      "pillarPage": {
+        "bannerPrefix": "सेवा कार्य",
+        "overview": {
+          "eyebrow": "Overview",
+          "title": "विवरण"
+        },
+        "successStories": {
+          "eyebrow": "Success Stories",
+          "title": "सफलता की कहानियाँ"
+        },
+        "aayaam": {
+          "eyebrow": "Areas of Work",
+          "title": "कार्य के आयाम"
+        },
+        "ageSuffix": "वर्ष"
+      },
+      "eventPage": {
+        "backLabel": "सभी कार्यक्रम",
+        "descriptionHeading": "विवरण",
+        "guestsHeading": {
+          "eyebrow": "Our Guests",
+          "title": "अतिथिगण"
+        },
+        "guestsNote": "नमूना प्रविष्टियाँ — वास्तविक अतिथि विवरण शीघ्र अद्यतन किए जाएंगे।"
+      },
+      "updatedAt": "2026-10-15T11:53:42.063Z",
+      "createdAt": "2026-10-15T11:17:50.883Z",
+      "globalType": "ui-strings"
+    }
+  },
+  "pillars": [
+    {
+      "id": 1,
+      "nameHi": "शिक्षा",
+      "nameEn": "Shiksha",
+      "slug": "shiksha",
+      "order": 1,
+      "accent": "saffron",
+      "showInNav": true,
+      "navLabel": null,
+      "summaryHi": "अभावग्रस्त बस्तियों के बच्चों के लिए निशुल्क शिक्षा — बाल संस्कार से लेकर पुस्तकालय एवं कोचिंग सहयोग तक।",
+      "summaryEn": "Free education for children of underserved settlements, from early learning and value education to libraries and coaching support.",
+      "banner": {
+        "id": 2,
+        "alt": "सेवा भारती बाल संस्कार केंद्र, सिरोही",
+        "updatedAt": "2026-10-15T11:17:50.639Z",
+        "createdAt": "2026-10-15T11:17:50.639Z",
+        "url": "/media/event-balsanskar.jpg",
+        "thumbnailURL": "/media/event-balsanskar-400x533.jpg",
+        "filename": "event-balsanskar.jpg",
+        "mimeType": "image/jpeg",
+        "filesize": 243930,
+        "width": 960,
+        "height": 1280,
+        "focalX": 50,
+        "focalY": 50,
+        "sizes": {
+          "thumbnail": {
+            "url": "/media/event-balsanskar-400x533.jpg",
+            "width": 400,
+            "height": 533,
+            "mimeType": "image/jpeg",
+            "filesize": 63116,
+            "filename": "event-balsanskar-400x533.jpg"
+          },
+          "card": {
+            "url": "/media/event-balsanskar-900x1200.jpg",
+            "width": 900,
+            "height": 1200,
+            "mimeType": "image/jpeg",
+            "filesize": 247678,
+            "filename": "event-balsanskar-900x1200.jpg"
+          },
+          "hero": {
+            "url": null,
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          }
+        }
+      },
+      "content": {
+        "root": {
+          "type": "root",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "type": "paragraph",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "children": [
+                {
+                  "mode": "normal",
+                  "text": "सेवा भारती समिति राजस्थान, शिक्षा के क्षेत्र में वंचित एवं अभावग्रस्त बस्तियों के बच्चों तक निशुल्क शिक्षा पहुँचाने का कार्य करती है। प्रारंभिक बाल शिक्षा से लेकर संस्कार, पुस्तकालय एवं कोचिंग सहयोग तक — प्रत्येक बालक को मुख्यधारा की शिक्षा से जोड़ना संस्था का ध्येय है।",
+                  "type": "text",
+                  "style": "",
+                  "detail": 0,
+                  "format": 0,
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "textStyle": "",
+              "textFormat": 0
+            },
+            {
+              "type": "paragraph",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "children": [
+                {
+                  "mode": "normal",
+                  "text": "बालवाड़ी एवं बाल संस्कार केंद्रों से लेकर निशुल्क विद्यालय एवं झोला पुस्तकालय तक, शिक्षा के अनेक आयामों के माध्यम से हजारों बच्चे शिक्षा की मुख्यधारा से जुड़ रहे हैं।",
+                  "type": "text",
+                  "style": "",
+                  "detail": 0,
+                  "format": 0,
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "textStyle": "",
+              "textFormat": 0
+            }
+          ],
+          "direction": "ltr"
+        }
+      },
+      "activities": [
+        {
+          "id": "6ad0bca3200654d3d9637a01",
+          "titleHi": "बालवाड़ी एवं बाल संस्कार केंद्र",
+          "titleEn": "Balwadi & Bal Sanskar Kendra",
+          "descHi": "छोटे बच्चों के लिए प्रारंभिक शिक्षा एवं संस्कार केंद्र, जहाँ खेल-खेल में पढ़ाई, गीत-प्रार्थना एवं अच्छे संस्कार सिखाए जाते हैं।"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a02",
+          "titleHi": "निशुल्क शिक्षा — सेवा भारती बाल विद्यालय",
+          "titleEn": "Free Education — Sewa Bharti Bal Vidyalaya",
+          "descHi": "वंचित वर्ग के विद्यार्थियों को निशुल्क शिक्षा दी जाती है, जिससे वे मुख्यधारा की शिक्षा से जुड़ सकें।"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a03",
+          "titleHi": "पुस्तकालय एवं वाचनालय",
+          "titleEn": "Library & Reading Room",
+          "descHi": "सेवा सदन में हजारों पुस्तकों का पुस्तकालय एवं वाचनालय। अन्य सेवा बस्तियों में झोला पुस्तकालय एवं कोचिंग सेंटर भी चलाए जाते हैं।"
+        }
+      ],
+      "aayaam": [
+        {
+          "id": "6ad0bca3200654d3d9637a04",
+          "titleHi": "बालवाड़ी एवं बाल संस्कार केंद्र",
+          "titleEn": "Balwadi & Bal Sanskar Kendra"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a05",
+          "titleHi": "निशुल्क शिक्षा — सेवा भारती बाल विद्यालय",
+          "titleEn": "Free Education — Sewa Bharti Bal Vidyalaya"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a06",
+          "titleHi": "पुस्तकालय एवं वाचनालय",
+          "titleEn": "Library & Reading Room"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a07",
+          "titleHi": "सेवा आयाम 4",
+          "titleEn": "Sewa Aayaam 4"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a08",
+          "titleHi": "सेवा आयाम 5",
+          "titleEn": "Sewa Aayaam 5"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a09",
+          "titleHi": "सेवा आयाम 6",
+          "titleEn": "Sewa Aayaam 6"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a0a",
+          "titleHi": "सेवा आयाम 7",
+          "titleEn": "Sewa Aayaam 7"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a0b",
+          "titleHi": "सेवा आयाम 8",
+          "titleEn": "Sewa Aayaam 8"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a0c",
+          "titleHi": "सेवा आयाम 9",
+          "titleEn": "Sewa Aayaam 9"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a0d",
+          "titleHi": "सेवा आयाम 10",
+          "titleEn": "Sewa Aayaam 10"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a0e",
+          "titleHi": "सेवा आयाम 11",
+          "titleEn": "Sewa Aayaam 11"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a0f",
+          "titleHi": "सेवा आयाम 12",
+          "titleEn": "Sewa Aayaam 12"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a10",
+          "titleHi": "सेवा आयाम 13",
+          "titleEn": "Sewa Aayaam 13"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a11",
+          "titleHi": "सेवा आयाम 14",
+          "titleEn": "Sewa Aayaam 14"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a12",
+          "titleHi": "सेवा आयाम 15",
+          "titleEn": "Sewa Aayaam 15"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a13",
+          "titleHi": "सेवा आयाम 16",
+          "titleEn": "Sewa Aayaam 16"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a14",
+          "titleHi": "सेवा आयाम 17",
+          "titleEn": "Sewa Aayaam 17"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a15",
+          "titleHi": "सेवा आयाम 18",
+          "titleEn": "Sewa Aayaam 18"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a16",
+          "titleHi": "सेवा आयाम 19",
+          "titleEn": "Sewa Aayaam 19"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a17",
+          "titleHi": "सेवा आयाम 20",
+          "titleEn": "Sewa Aayaam 20"
+        }
+      ],
+      "stats": [
+        {
+          "id": "6ad0bca3200654d3d9637a18",
+          "value": 450,
+          "suffix": "+",
+          "labelHi": "सेवा कार्य"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a19",
+          "value": 12000,
+          "suffix": "+",
+          "labelHi": "लाभार्थी"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a1a",
+          "value": 37,
+          "suffix": "+",
+          "labelHi": "वर्ष"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a1b",
+          "value": 85,
+          "suffix": "+",
+          "labelHi": "सेवा बस्ती"
+        }
+      ],
+      "successStories": [
+        {
+          "id": "6ad0bca3200654d3d9637a1c",
+          "nameHi": "आरती वाल्मीकि",
+          "nameEn": "Aarti Valmiki",
+          "age": 14,
+          "photo": {
+            "id": 5,
+            "alt": "सेवा भारती सामाजिक कार्यक्रम",
+            "updatedAt": "2026-10-15T11:17:50.655Z",
+            "createdAt": "2026-10-15T11:17:50.655Z",
+            "url": "/media/gallery-1.png",
+            "thumbnailURL": "/media/gallery-1.png",
+            "filename": "gallery-1.png",
+            "mimeType": "image/png",
+            "filesize": 155877,
+            "width": 300,
+            "height": 200,
+            "focalX": 50,
+            "focalY": 50,
+            "sizes": {
+              "thumbnail": {
+                "url": null,
+                "width": null,
+                "height": null,
+                "mimeType": null,
+                "filesize": null,
+                "filename": null
+              },
+              "card": {
+                "url": null,
+                "width": null,
+                "height": null,
+                "mimeType": null,
+                "filesize": null,
+                "filename": null
+              },
+              "hero": {
+                "url": null,
+                "width": null,
+                "height": null,
+                "mimeType": null,
+                "filesize": null,
+                "filename": null
+              }
+            }
+          },
+          "bioHi": "लालकोठी बस्ती · कक्षा 9",
+          "storyHi": "बालवाड़ी से पढ़ाई आरंभ करने वाली आरती आज कक्षा 9 में है और अपनी बस्ती की पहली बालिका है जो विद्यालय की टॉपर बनी। वह आगे चलकर शिक्षिका बनना चाहती है।"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a1d",
+          "nameHi": "रोहित सेन",
+          "nameEn": "Rohit Sen",
+          "age": 12,
+          "photo": {
+            "id": 9,
+            "alt": "सेवा भारती गतिविधि",
+            "updatedAt": "2026-10-15T11:17:50.697Z",
+            "createdAt": "2026-10-15T11:17:50.697Z",
+            "url": "/media/gallery-2.png",
+            "thumbnailURL": "/media/gallery-2-400x128.png",
+            "filename": "gallery-2.png",
+            "mimeType": "image/png",
+            "filesize": 238914,
+            "width": 623,
+            "height": 200,
+            "focalX": 50,
+            "focalY": 50,
+            "sizes": {
+              "thumbnail": {
+                "url": "/media/gallery-2-400x128.png",
+                "width": 400,
+                "height": 128,
+                "mimeType": "image/png",
+                "filesize": 136553,
+                "filename": "gallery-2-400x128.png"
+              },
+              "card": {
+                "url": null,
+                "width": null,
+                "height": null,
+                "mimeType": null,
+                "filesize": null,
+                "filename": null
+              },
+              "hero": {
+                "url": null,
+                "width": null,
+                "height": null,
+                "mimeType": null,
+                "filesize": null,
+                "filename": null
+              }
+            }
+          },
+          "bioHi": "सेवा बस्ती · कक्षा 7",
+          "storyHi": "कोचिंग सेंटर एवं झोला पुस्तकालय की सहायता से रोहित की पढ़ाई में निरंतर सुधार हुआ और उसे छात्रवृत्ति परीक्षा में सफलता मिली।"
+        }
+      ],
+      "seo": {
+        "metaTitle": null,
+        "metaDescription": null
+      },
+      "updatedAt": "2026-10-15T11:44:35.017Z",
+      "createdAt": "2026-10-15T11:17:50.764Z"
+    },
+    {
+      "id": 4,
+      "nameHi": "स्वास्थ्य",
+      "nameEn": "Swasthya",
+      "slug": "swasthya",
+      "order": 2,
+      "accent": "blue",
+      "showInNav": true,
+      "navLabel": null,
+      "summaryHi": "परामर्श केंद्र, चल चिकित्सालय, चिकित्सा शिविर एवं रुग्ण सहायता के माध्यम से सुलभ स्वास्थ्य सेवा।",
+      "summaryEn": "Accessible healthcare through consultation centres, mobile clinics, medical camps and patient assistance.",
+      "banner": {
+        "id": 3,
+        "alt": "सेवा भारती स्वास्थ्य एवं जागरूकता गतिविधि",
+        "updatedAt": "2026-10-15T11:17:50.646Z",
+        "createdAt": "2026-10-15T11:17:50.646Z",
+        "url": "/media/event-health.jpg",
+        "thumbnailURL": "/media/event-health.jpg",
+        "filename": "event-health.jpg",
+        "mimeType": "image/jpeg",
+        "filesize": 110830,
+        "width": 330,
+        "height": 295,
+        "focalX": 50,
+        "focalY": 50,
+        "sizes": {
+          "thumbnail": {
+            "url": null,
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "card": {
+            "url": null,
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "hero": {
+            "url": null,
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          }
+        }
+      },
+      "content": {
+        "root": {
+          "type": "root",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "type": "paragraph",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "children": [
+                {
+                  "mode": "normal",
+                  "text": "स्वास्थ्य के क्षेत्र में संस्था परामर्श केंद्र, चल चिकित्सालय, चिकित्सा शिविर एवं रुग्ण सहायता के माध्यम से वंचित वर्ग तक सुलभ एवं निशुल्क स्वास्थ्य सेवा पहुँचाती है।",
+                  "type": "text",
+                  "style": "",
+                  "detail": 0,
+                  "format": 0,
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "textStyle": "",
+              "textFormat": 0
+            },
+            {
+              "type": "paragraph",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "children": [
+                {
+                  "mode": "normal",
+                  "text": "चल चिकित्सालय एवं नियमित चिकित्सा शिविरों से हजारों रोगियों को समय पर उपचार एवं परामर्श उपलब्ध हो रहा है।",
+                  "type": "text",
+                  "style": "",
+                  "detail": 0,
+                  "format": 0,
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "textStyle": "",
+              "textFormat": 0
+            }
+          ],
+          "direction": "ltr"
+        }
+      },
+      "activities": [
+        {
+          "id": "6ad0bca3200654d3d9637a58",
+          "titleHi": "स्वास्थ्य परामर्श एवं जांच केंद्र",
+          "titleEn": "Health Consultation & Diagnostic Centre",
+          "descHi": "सेवा सदन के प्रथम तल पर आधुनिक जांच केंद्र, जहाँ वरिष्ठ चिकित्सकों द्वारा परामर्श एवं उपचार किया जाता है। माह के अंतिम रविवार को चिकित्सा शिविर भी लगाए जाते हैं।"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a59",
+          "titleHi": "चल चिकित्सालय",
+          "titleEn": "Mobile Clinic (Chal Chikitsalaya)",
+          "descHi": "एंबुलेंस वैन में एक डॉक्टर एवं एक कंपाउंडर के साथ ग्रामीण एवं नगरीय क्षेत्रों में नियमित चिकित्सा सेवा उपलब्ध कराई जाती है।"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a5a",
+          "titleHi": "रुग्ण सहायता एवं नेत्र शिविर",
+          "titleEn": "Patient Assistance & Eye Camps",
+          "descHi": "गरीब रोगियों के लिए रुग्ण सहायता केंद्र, मनोरोग चिकित्सालय में भोजनशाला एवं समय-समय पर नेत्र चिकित्सा शिविर आयोजित किए जाते हैं।"
+        }
+      ],
+      "aayaam": [
+        {
+          "id": "6ad0bca3200654d3d9637a5b",
+          "titleHi": "स्वास्थ्य परामर्श एवं जांच केंद्र",
+          "titleEn": "Health Consultation & Diagnostic Centre"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a5c",
+          "titleHi": "चल चिकित्सालय",
+          "titleEn": "Mobile Clinic (Chal Chikitsalaya)"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a5d",
+          "titleHi": "रुग्ण सहायता एवं नेत्र शिविर",
+          "titleEn": "Patient Assistance & Eye Camps"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a5e",
+          "titleHi": "सेवा आयाम 4",
+          "titleEn": "Sewa Aayaam 4"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a5f",
+          "titleHi": "सेवा आयाम 5",
+          "titleEn": "Sewa Aayaam 5"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a60",
+          "titleHi": "सेवा आयाम 6",
+          "titleEn": "Sewa Aayaam 6"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a61",
+          "titleHi": "सेवा आयाम 7",
+          "titleEn": "Sewa Aayaam 7"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a62",
+          "titleHi": "सेवा आयाम 8",
+          "titleEn": "Sewa Aayaam 8"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a63",
+          "titleHi": "सेवा आयाम 9",
+          "titleEn": "Sewa Aayaam 9"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a64",
+          "titleHi": "सेवा आयाम 10",
+          "titleEn": "Sewa Aayaam 10"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a65",
+          "titleHi": "सेवा आयाम 11",
+          "titleEn": "Sewa Aayaam 11"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a66",
+          "titleHi": "सेवा आयाम 12",
+          "titleEn": "Sewa Aayaam 12"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a67",
+          "titleHi": "सेवा आयाम 13",
+          "titleEn": "Sewa Aayaam 13"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a68",
+          "titleHi": "सेवा आयाम 14",
+          "titleEn": "Sewa Aayaam 14"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a69",
+          "titleHi": "सेवा आयाम 15",
+          "titleEn": "Sewa Aayaam 15"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a6a",
+          "titleHi": "सेवा आयाम 16",
+          "titleEn": "Sewa Aayaam 16"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a6b",
+          "titleHi": "सेवा आयाम 17",
+          "titleEn": "Sewa Aayaam 17"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a6c",
+          "titleHi": "सेवा आयाम 18",
+          "titleEn": "Sewa Aayaam 18"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a6d",
+          "titleHi": "सेवा आयाम 19",
+          "titleEn": "Sewa Aayaam 19"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a6e",
+          "titleHi": "सेवा आयाम 20",
+          "titleEn": "Sewa Aayaam 20"
+        }
+      ],
+      "stats": [
+        {
+          "id": "6ad0bca3200654d3d9637a6f",
+          "value": 180,
+          "suffix": "+",
+          "labelHi": "सेवा कार्य"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a70",
+          "value": 25000,
+          "suffix": "+",
+          "labelHi": "लाभार्थी"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a71",
+          "value": 32,
+          "suffix": "+",
+          "labelHi": "वर्ष"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a72",
+          "value": 70,
+          "suffix": "+",
+          "labelHi": "सेवा बस्ती"
+        }
+      ],
+      "successStories": [
+        {
+          "id": "6ad0bca3200654d3d9637a73",
+          "nameHi": "कमला बाई",
+          "nameEn": "Kamla Bai",
+          "age": 60,
+          "photo": {
+            "id": 14,
+            "alt": "सेवा भारती कार्यक्रम",
+            "updatedAt": "2026-10-15T11:17:50.734Z",
+            "createdAt": "2026-10-15T11:17:50.734Z",
+            "url": "/media/gallery-7.png",
+            "thumbnailURL": "/media/gallery-7.png",
+            "filename": "gallery-7.png",
+            "mimeType": "image/png",
+            "filesize": 160057,
+            "width": 300,
+            "height": 200,
+            "focalX": 50,
+            "focalY": 50,
+            "sizes": {
+              "thumbnail": {
+                "url": null,
+                "width": null,
+                "height": null,
+                "mimeType": null,
+                "filesize": null,
+                "filename": null
+              },
+              "card": {
+                "url": null,
+                "width": null,
+                "height": null,
+                "mimeType": null,
+                "filesize": null,
+                "filename": null
+              },
+              "hero": {
+                "url": null,
+                "width": null,
+                "height": null,
+                "mimeType": null,
+                "filesize": null,
+                "filename": null
+              }
+            }
+          },
+          "bioHi": "नेत्र चिकित्सा शिविर",
+          "storyHi": "नेत्र शिविर में मोतियाबिंद की निशुल्क शल्य चिकित्सा के बाद कमला बाई की दृष्टि पुनः लौट आई और वे फिर से आत्मनिर्भर जीवन जी रही हैं।"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a74",
+          "nameHi": "इमरान खान",
+          "nameEn": "Imran Khan",
+          "age": 8,
+          "photo": {
+            "id": 15,
+            "alt": "सेवा भारती गतिविधि",
+            "updatedAt": "2026-10-15T11:17:50.739Z",
+            "createdAt": "2026-10-15T11:17:50.739Z",
+            "url": "/media/gallery-8.png",
+            "thumbnailURL": "/media/gallery-8.png",
+            "filename": "gallery-8.png",
+            "mimeType": "image/png",
+            "filesize": 128992,
+            "width": 300,
+            "height": 200,
+            "focalX": 50,
+            "focalY": 50,
+            "sizes": {
+              "thumbnail": {
+                "url": null,
+                "width": null,
+                "height": null,
+                "mimeType": null,
+                "filesize": null,
+                "filename": null
+              },
+              "card": {
+                "url": null,
+                "width": null,
+                "height": null,
+                "mimeType": null,
+                "filesize": null,
+                "filename": null
+              },
+              "hero": {
+                "url": null,
+                "width": null,
+                "height": null,
+                "mimeType": null,
+                "filesize": null,
+                "filename": null
+              }
+            }
+          },
+          "bioHi": "चल चिकित्सालय · बाल रोगी",
+          "storyHi": "चल चिकित्सालय द्वारा समय पर उपचार मिलने से इमरान गंभीर संक्रमण से उबर सका और अब स्वस्थ होकर विद्यालय जा रहा है।"
+        }
+      ],
+      "seo": {
+        "metaTitle": null,
+        "metaDescription": null
+      },
+      "updatedAt": "2026-10-15T11:44:35.057Z",
+      "createdAt": "2026-10-15T11:17:50.811Z"
+    },
+    {
+      "id": 2,
+      "nameHi": "स्वावलंबन",
+      "nameEn": "Swavalamban",
+      "slug": "swavalamban",
+      "order": 3,
+      "accent": "blue",
+      "showInNav": true,
+      "navLabel": null,
+      "summaryHi": "कौशल विकास, कंप्यूटर प्रशिक्षण एवं स्वयं सहायता समूहों के माध्यम से आत्मनिर्भरता की ओर।",
+      "summaryEn": "Skill development and self-reliance through vocational training, computer education and self-help groups.",
+      "banner": {
+        "id": 16,
+        "alt": "सेवा भारती सेवा कार्य",
+        "updatedAt": "2026-10-15T11:17:50.744Z",
+        "createdAt": "2026-10-15T11:17:50.744Z",
+        "url": "/media/gallery-9.png",
+        "thumbnailURL": "/media/gallery-9.png",
+        "filename": "gallery-9.png",
+        "mimeType": "image/png",
+        "filesize": 117922,
+        "width": 300,
+        "height": 200,
+        "focalX": 50,
+        "focalY": 50,
+        "sizes": {
+          "thumbnail": {
+            "url": null,
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "card": {
+            "url": null,
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "hero": {
+            "url": null,
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          }
+        }
+      },
+      "content": {
+        "root": {
+          "type": "root",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "type": "paragraph",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "children": [
+                {
+                  "mode": "normal",
+                  "text": "स्वावलंबन के क्षेत्र में संस्था कौशल विकास, कंप्यूटर प्रशिक्षण एवं स्वयं सहायता समूहों के माध्यम से बस्तियों के युवाओं एवं महिलाओं को आत्मनिर्भर बनाने का कार्य करती है।",
+                  "type": "text",
+                  "style": "",
+                  "detail": 0,
+                  "format": 0,
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "textStyle": "",
+              "textFormat": 0
+            },
+            {
+              "type": "paragraph",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "children": [
+                {
+                  "mode": "normal",
+                  "text": "सिलाई, फैशन डिज़ाइनिंग एवं कंप्यूटर प्रशिक्षण केंद्रों से प्रशिक्षित होकर सैकड़ों महिलाएँ एवं युवा स्वरोज़गार से जुड़ चुके हैं।",
+                  "type": "text",
+                  "style": "",
+                  "detail": 0,
+                  "format": 0,
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "textStyle": "",
+              "textFormat": 0
+            }
+          ],
+          "direction": "ltr"
+        }
+      },
+      "activities": [
+        {
+          "id": "6ad0bca3200654d3d9637a1e",
+          "titleHi": "कौशल विकास केंद्र",
+          "titleEn": "Kaushal Vikas Kendra (Skill Development)",
+          "descHi": "सिलाई एवं फैशन डिजाइनिंग प्रशिक्षण। सेवा सदन सहित बस्तियों में 15 से अधिक सिलाई केंद्र संचालित हैं।"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a1f",
+          "titleHi": "कंप्यूटर प्रशिक्षण",
+          "titleEn": "Computer Training",
+          "descHi": "टैली, बेसिक कंप्यूटर एवं ग्राफिक्स के पाठ्यक्रम। अन्य सेवा बस्तियों में भी कंप्यूटर प्रशिक्षण केंद्र चलाए जाते हैं।"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a20",
+          "titleHi": "स्वयं सहायता समूह",
+          "titleEn": "Self-Help Groups",
+          "descHi": "पिछड़ी बस्तियों की महिलाओं एवं पुरुषों में बचत के माध्यम से लघु उद्योग एवं आत्मनिर्भरता को प्रोत्साहन।"
+        }
+      ],
+      "aayaam": [
+        {
+          "id": "6ad0bca3200654d3d9637a21",
+          "titleHi": "कौशल विकास केंद्र",
+          "titleEn": "Kaushal Vikas Kendra (Skill Development)"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a22",
+          "titleHi": "कंप्यूटर प्रशिक्षण",
+          "titleEn": "Computer Training"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a23",
+          "titleHi": "स्वयं सहायता समूह",
+          "titleEn": "Self-Help Groups"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a24",
+          "titleHi": "सेवा आयाम 4",
+          "titleEn": "Sewa Aayaam 4"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a25",
+          "titleHi": "सेवा आयाम 5",
+          "titleEn": "Sewa Aayaam 5"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a26",
+          "titleHi": "सेवा आयाम 6",
+          "titleEn": "Sewa Aayaam 6"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a27",
+          "titleHi": "सेवा आयाम 7",
+          "titleEn": "Sewa Aayaam 7"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a28",
+          "titleHi": "सेवा आयाम 8",
+          "titleEn": "Sewa Aayaam 8"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a29",
+          "titleHi": "सेवा आयाम 9",
+          "titleEn": "Sewa Aayaam 9"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a2a",
+          "titleHi": "सेवा आयाम 10",
+          "titleEn": "Sewa Aayaam 10"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a2b",
+          "titleHi": "सेवा आयाम 11",
+          "titleEn": "Sewa Aayaam 11"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a2c",
+          "titleHi": "सेवा आयाम 12",
+          "titleEn": "Sewa Aayaam 12"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a2d",
+          "titleHi": "सेवा आयाम 13",
+          "titleEn": "Sewa Aayaam 13"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a2e",
+          "titleHi": "सेवा आयाम 14",
+          "titleEn": "Sewa Aayaam 14"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a2f",
+          "titleHi": "सेवा आयाम 15",
+          "titleEn": "Sewa Aayaam 15"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a30",
+          "titleHi": "सेवा आयाम 16",
+          "titleEn": "Sewa Aayaam 16"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a31",
+          "titleHi": "सेवा आयाम 17",
+          "titleEn": "Sewa Aayaam 17"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a32",
+          "titleHi": "सेवा आयाम 18",
+          "titleEn": "Sewa Aayaam 18"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a33",
+          "titleHi": "सेवा आयाम 19",
+          "titleEn": "Sewa Aayaam 19"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a34",
+          "titleHi": "सेवा आयाम 20",
+          "titleEn": "Sewa Aayaam 20"
+        }
+      ],
+      "stats": [
+        {
+          "id": "6ad0bca3200654d3d9637a35",
+          "value": 120,
+          "suffix": "+",
+          "labelHi": "सेवा कार्य"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a36",
+          "value": 5000,
+          "suffix": "+",
+          "labelHi": "लाभार्थी"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a37",
+          "value": 30,
+          "suffix": "+",
+          "labelHi": "वर्ष"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a38",
+          "value": 45,
+          "suffix": "+",
+          "labelHi": "सेवा बस्ती"
+        }
+      ],
+      "successStories": [
+        {
+          "id": "6ad0bca3200654d3d9637a39",
+          "nameHi": "सुनीता देवी",
+          "nameEn": "Sunita Devi",
+          "age": 28,
+          "photo": {
+            "id": 10,
+            "alt": "सेवा भारती सामाजिक समरसता कार्यक्रम",
+            "updatedAt": "2026-10-15T11:17:50.703Z",
+            "createdAt": "2026-10-15T11:17:50.703Z",
+            "url": "/media/gallery-3.png",
+            "thumbnailURL": "/media/gallery-3.png",
+            "filename": "gallery-3.png",
+            "mimeType": "image/png",
+            "filesize": 135292,
+            "width": 300,
+            "height": 200,
+            "focalX": 50,
+            "focalY": 50,
+            "sizes": {
+              "thumbnail": {
+                "url": null,
+                "width": null,
+                "height": null,
+                "mimeType": null,
+                "filesize": null,
+                "filename": null
+              },
+              "card": {
+                "url": null,
+                "width": null,
+                "height": null,
+                "mimeType": null,
+                "filesize": null,
+                "filename": null
+              },
+              "hero": {
+                "url": null,
+                "width": null,
+                "height": null,
+                "mimeType": null,
+                "filesize": null,
+                "filename": null
+              }
+            }
+          },
+          "bioHi": "सिलाई केंद्र · स्वयं सहायता समूह",
+          "storyHi": "सिलाई केंद्र में प्रशिक्षण पूरा करने के बाद सुनीता ने अपना छोटा बुटीक आरंभ किया और आज अपने परिवार की आय में मुख्य योगदान देती हैं।"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a3a",
+          "nameHi": "मनोज कुमार",
+          "nameEn": "Manoj Kumar",
+          "age": 22,
+          "photo": {
+            "id": 11,
+            "alt": "सेवा भारती गतिविधि",
+            "updatedAt": "2026-10-15T11:17:50.707Z",
+            "createdAt": "2026-10-15T11:17:50.707Z",
+            "url": "/media/gallery-4.png",
+            "thumbnailURL": "/media/gallery-4.png",
+            "filename": "gallery-4.png",
+            "mimeType": "image/png",
+            "filesize": 141417,
+            "width": 300,
+            "height": 200,
+            "focalX": 50,
+            "focalY": 50,
+            "sizes": {
+              "thumbnail": {
+                "url": null,
+                "width": null,
+                "height": null,
+                "mimeType": null,
+                "filesize": null,
+                "filename": null
+              },
+              "card": {
+                "url": null,
+                "width": null,
+                "height": null,
+                "mimeType": null,
+                "filesize": null,
+                "filename": null
+              },
+              "hero": {
+                "url": null,
+                "width": null,
+                "height": null,
+                "mimeType": null,
+                "filesize": null,
+                "filename": null
+              }
+            }
+          },
+          "bioHi": "कंप्यूटर प्रशिक्षण केंद्र",
+          "storyHi": "टैली एवं बेसिक कंप्यूटर प्रशिक्षण के बाद मनोज को एक स्थानीय फर्म में अकाउंट्स सहायक की नौकरी मिली।"
+        }
+      ],
+      "seo": {
+        "metaTitle": null,
+        "metaDescription": null
+      },
+      "updatedAt": "2026-10-15T11:44:35.035Z",
+      "createdAt": "2026-10-15T11:17:50.787Z"
+    },
+    {
+      "id": 3,
+      "nameHi": "सामाजिक समरसता",
+      "nameEn": "Samajik",
+      "slug": "samajik",
+      "order": 4,
+      "accent": "saffron",
+      "showInNav": true,
+      "navLabel": "सामाजिक",
+      "summaryHi": "योग एवं सत्संग केंद्र, उत्सव-जयंतियों एवं मेलों में सेवा के माध्यम से सामाजिक समरसता का निर्माण।",
+      "summaryEn": "Building social harmony through yoga and satsang centres, community festivals and service at fairs.",
+      "banner": {
+        "id": 4,
+        "alt": "सेवा भारती सामूहिक विवाह सम्मेलन",
+        "updatedAt": "2026-10-15T11:17:50.650Z",
+        "createdAt": "2026-10-15T11:17:50.650Z",
+        "url": "/media/event-vivah.png",
+        "thumbnailURL": "/media/event-vivah.png",
+        "filename": "event-vivah.png",
+        "mimeType": "image/png",
+        "filesize": 135292,
+        "width": 300,
+        "height": 200,
+        "focalX": 50,
+        "focalY": 50,
+        "sizes": {
+          "thumbnail": {
+            "url": null,
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "card": {
+            "url": null,
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "hero": {
+            "url": null,
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          }
+        }
+      },
+      "content": {
+        "root": {
+          "type": "root",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "type": "paragraph",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "children": [
+                {
+                  "mode": "normal",
+                  "text": "सामाजिक समरसता के क्षेत्र में संस्था योग एवं सत्संग केंद्र, उत्सव-जयंतियों एवं मेलों में सेवा के माध्यम से समाज में सद्भाव एवं एकता का भाव सुदृढ़ करती है।",
+                  "type": "text",
+                  "style": "",
+                  "detail": 0,
+                  "format": 0,
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "textStyle": "",
+              "textFormat": 0
+            },
+            {
+              "type": "paragraph",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "children": [
+                {
+                  "mode": "normal",
+                  "text": "विभिन्न पर्वों एवं जयंतियों के आयोजन तथा मेलों में सेवा व्यवस्था से बस्तियों में सामूहिकता एवं आत्मीयता का वातावरण बनता है।",
+                  "type": "text",
+                  "style": "",
+                  "detail": 0,
+                  "format": 0,
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "textStyle": "",
+              "textFormat": 0
+            }
+          ],
+          "direction": "ltr"
+        }
+      },
+      "activities": [
+        {
+          "id": "6ad0bca3200654d3d9637a3b",
+          "titleHi": "योग एवं सत्संग केंद्र",
+          "titleEn": "Yoga & Satsang Centres",
+          "descHi": "सेवा बस्तियों में सामाजिक सद्भाव एवं समरसता हेतु साप्ताहिक योग एवं सत्संग केंद्र संचालित किए जाते हैं।"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a3c",
+          "titleHi": "उत्सव एवं जयंतियाँ",
+          "titleEn": "Festivals & Jayantis",
+          "descHi": "महर्षि वाल्मीकि जयंती, मकर संक्रांति एवं रक्षाबंधन जैसे पर्व सामाजिक समरसता के भाव से मनाए जाते हैं।"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a3d",
+          "titleHi": "मेलों में सेवा कार्य एवं ‘सेवा सरोज’ पत्रिका",
+          "titleEn": "Service at Fairs & 'Sewa Saroj' Magazine",
+          "descHi": "बाबा रामदेव जी एवं खाटू श्याम जी जैसे मेलों में सेवा व्यवस्था। संस्था विगत 35 वर्षों से ‘सेवा सरोज’ पत्रिका प्रकाशित करती है।"
+        }
+      ],
+      "aayaam": [
+        {
+          "id": "6ad0bca3200654d3d9637a3e",
+          "titleHi": "योग एवं सत्संग केंद्र",
+          "titleEn": "Yoga & Satsang Centres"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a3f",
+          "titleHi": "उत्सव एवं जयंतियाँ",
+          "titleEn": "Festivals & Jayantis"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a40",
+          "titleHi": "मेलों में सेवा कार्य एवं ‘सेवा सरोज’ पत्रिका",
+          "titleEn": "Service at Fairs & 'Sewa Saroj' Magazine"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a41",
+          "titleHi": "सेवा आयाम 4",
+          "titleEn": "Sewa Aayaam 4"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a42",
+          "titleHi": "सेवा आयाम 5",
+          "titleEn": "Sewa Aayaam 5"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a43",
+          "titleHi": "सेवा आयाम 6",
+          "titleEn": "Sewa Aayaam 6"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a44",
+          "titleHi": "सेवा आयाम 7",
+          "titleEn": "Sewa Aayaam 7"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a45",
+          "titleHi": "सेवा आयाम 8",
+          "titleEn": "Sewa Aayaam 8"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a46",
+          "titleHi": "सेवा आयाम 9",
+          "titleEn": "Sewa Aayaam 9"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a47",
+          "titleHi": "सेवा आयाम 10",
+          "titleEn": "Sewa Aayaam 10"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a48",
+          "titleHi": "सेवा आयाम 11",
+          "titleEn": "Sewa Aayaam 11"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a49",
+          "titleHi": "सेवा आयाम 12",
+          "titleEn": "Sewa Aayaam 12"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a4a",
+          "titleHi": "सेवा आयाम 13",
+          "titleEn": "Sewa Aayaam 13"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a4b",
+          "titleHi": "सेवा आयाम 14",
+          "titleEn": "Sewa Aayaam 14"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a4c",
+          "titleHi": "सेवा आयाम 15",
+          "titleEn": "Sewa Aayaam 15"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a4d",
+          "titleHi": "सेवा आयाम 16",
+          "titleEn": "Sewa Aayaam 16"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a4e",
+          "titleHi": "सेवा आयाम 17",
+          "titleEn": "Sewa Aayaam 17"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a4f",
+          "titleHi": "सेवा आयाम 18",
+          "titleEn": "Sewa Aayaam 18"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a50",
+          "titleHi": "सेवा आयाम 19",
+          "titleEn": "Sewa Aayaam 19"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a51",
+          "titleHi": "सेवा आयाम 20",
+          "titleEn": "Sewa Aayaam 20"
+        }
+      ],
+      "stats": [
+        {
+          "id": "6ad0bca3200654d3d9637a52",
+          "value": 200,
+          "suffix": "+",
+          "labelHi": "सेवा कार्य"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a53",
+          "value": 8000,
+          "suffix": "+",
+          "labelHi": "लाभार्थी"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a54",
+          "value": 35,
+          "suffix": "+",
+          "labelHi": "वर्ष"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a55",
+          "value": 60,
+          "suffix": "+",
+          "labelHi": "सेवा बस्ती"
+        }
+      ],
+      "successStories": [
+        {
+          "id": "6ad0bca3200654d3d9637a56",
+          "nameHi": "रामप्रसाद जी",
+          "nameEn": "Ramprasad Ji",
+          "age": 52,
+          "photo": {
+            "id": 12,
+            "alt": "सेवा भारती गतिविधि",
+            "updatedAt": "2026-10-15T11:17:50.725Z",
+            "createdAt": "2026-10-15T11:17:50.725Z",
+            "url": "/media/gallery-5.png",
+            "thumbnailURL": "/media/gallery-5-400x561.png",
+            "filename": "gallery-5.png",
+            "mimeType": "image/png",
+            "filesize": 251503,
+            "width": 514,
+            "height": 721,
+            "focalX": 50,
+            "focalY": 50,
+            "sizes": {
+              "thumbnail": {
+                "url": "/media/gallery-5-400x561.png",
+                "width": 400,
+                "height": 561,
+                "mimeType": "image/png",
+                "filesize": 208180,
+                "filename": "gallery-5-400x561.png"
+              },
+              "card": {
+                "url": null,
+                "width": null,
+                "height": null,
+                "mimeType": null,
+                "filesize": null,
+                "filename": null
+              },
+              "hero": {
+                "url": null,
+                "width": null,
+                "height": null,
+                "mimeType": null,
+                "filesize": null,
+                "filename": null
+              }
+            }
+          },
+          "bioHi": "योग एवं सत्संग केंद्र · स्वयंसेवक",
+          "storyHi": "योग केंद्र से जुड़ने के बाद रामप्रसाद जी ने स्वयं एक स्वयंसेवक के रूप में अपनी बस्ती में साप्ताहिक सत्संग एवं योग सत्र आरंभ किए।"
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a57",
+          "nameHi": "गीता शर्मा",
+          "nameEn": "Geeta Sharma",
+          "age": 40,
+          "photo": {
+            "id": 13,
+            "alt": "सेवा भारती सेवा कार्य",
+            "updatedAt": "2026-10-15T11:17:50.729Z",
+            "createdAt": "2026-10-15T11:17:50.729Z",
+            "url": "/media/gallery-6.png",
+            "thumbnailURL": "/media/gallery-6.png",
+            "filename": "gallery-6.png",
+            "mimeType": "image/png",
+            "filesize": 134447,
+            "width": 300,
+            "height": 200,
+            "focalX": 50,
+            "focalY": 50,
+            "sizes": {
+              "thumbnail": {
+                "url": null,
+                "width": null,
+                "height": null,
+                "mimeType": null,
+                "filesize": null,
+                "filename": null
+              },
+              "card": {
+                "url": null,
+                "width": null,
+                "height": null,
+                "mimeType": null,
+                "filesize": null,
+                "filename": null
+              },
+              "hero": {
+                "url": null,
+                "width": null,
+                "height": null,
+                "mimeType": null,
+                "filesize": null,
+                "filename": null
+              }
+            }
+          },
+          "bioHi": "उत्सव आयोजन समिति",
+          "storyHi": "उत्सव एवं जयंती आयोजनों में सक्रिय भागीदारी से गीता जी बस्ती की महिलाओं को सामाजिक कार्यों से जोड़ने में अग्रणी बनीं।"
+        }
+      ],
+      "seo": {
+        "metaTitle": null,
+        "metaDescription": null
+      },
+      "updatedAt": "2026-10-15T11:44:35.045Z",
+      "createdAt": "2026-10-15T11:17:50.800Z"
+    }
+  ],
+  "events": [
+    {
+      "id": 3,
+      "titleHi": "सामाजिक समरसता — सामूहिक विवाह आयोजन",
+      "titleEn": "Social Harmony — Community Weddings",
+      "slug": "samoohik-vivah-samajik-samrasta",
+      "date": "2021-02-04T12:00:00.000Z",
+      "location": "Rajasthan",
+      "summaryHi": "सामाजिक समरसता के भाव से आयोजित सामूहिक विवाह कार्यक्रम, जिनमें समाज के सभी वर्गों की भागीदारी एवं समरसता देखने को मिली।",
+      "coverImage": {
+        "id": 4,
+        "alt": "सेवा भारती सामूहिक विवाह सम्मेलन",
+        "updatedAt": "2026-10-15T11:17:50.650Z",
+        "createdAt": "2026-10-15T11:17:50.650Z",
+        "url": "/media/event-vivah.png",
+        "thumbnailURL": "/media/event-vivah.png",
+        "filename": "event-vivah.png",
+        "mimeType": "image/png",
+        "filesize": 135292,
+        "width": 300,
+        "height": 200,
+        "focalX": 50,
+        "focalY": 50,
+        "sizes": {
+          "thumbnail": {
+            "url": null,
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "card": {
+            "url": null,
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "hero": {
+            "url": null,
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          }
+        }
+      },
+      "content": {
+        "root": {
+          "type": "root",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "type": "paragraph",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "children": [
+                {
+                  "mode": "normal",
+                  "text": "सामाजिक समरसता के भाव से सेवा भारती द्वारा सामूहिक विवाह सम्मेलन का आयोजन किया गया, जिसमें समाज के सभी वर्गों की सहभागिता रही।",
+                  "type": "text",
+                  "style": "",
+                  "detail": 0,
+                  "format": 0,
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "textStyle": "",
+              "textFormat": 0
+            },
+            {
+              "type": "paragraph",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "children": [
+                {
+                  "mode": "normal",
+                  "text": "इन आयोजनों के माध्यम से समाज में समरसता, सहयोग एवं एकता का संदेश दिया जाता है तथा सादगीपूर्ण विवाह को प्रोत्साहन मिलता है।",
+                  "type": "text",
+                  "style": "",
+                  "detail": 0,
+                  "format": 0,
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "textStyle": "",
+              "textFormat": 0
+            },
+            {
+              "type": "paragraph",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "children": [
+                {
+                  "mode": "normal",
+                  "text": "सेवा भारती ऐसे आयोजनों के द्वारा सामाजिक भेदभाव को समाप्त कर समरस एवं संगठित समाज के निर्माण हेतु प्रयासरत है।",
+                  "type": "text",
+                  "style": "",
+                  "detail": 0,
+                  "format": 0,
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "textStyle": "",
+              "textFormat": 0
+            }
+          ],
+          "direction": "ltr"
+        }
+      },
+      "photos": [
+        {
+          "id": 4,
+          "alt": "सेवा भारती सामूहिक विवाह सम्मेलन",
+          "updatedAt": "2026-10-15T11:17:50.650Z",
+          "createdAt": "2026-10-15T11:17:50.650Z",
+          "url": "/media/event-vivah.png",
+          "thumbnailURL": "/media/event-vivah.png",
+          "filename": "event-vivah.png",
+          "mimeType": "image/png",
+          "filesize": 135292,
+          "width": 300,
+          "height": 200,
+          "focalX": 50,
+          "focalY": 50,
+          "sizes": {
+            "thumbnail": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "card": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "hero": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            }
+          }
+        },
+        {
+          "id": 5,
+          "alt": "सेवा भारती सामाजिक कार्यक्रम",
+          "updatedAt": "2026-10-15T11:17:50.655Z",
+          "createdAt": "2026-10-15T11:17:50.655Z",
+          "url": "/media/gallery-1.png",
+          "thumbnailURL": "/media/gallery-1.png",
+          "filename": "gallery-1.png",
+          "mimeType": "image/png",
+          "filesize": 155877,
+          "width": 300,
+          "height": 200,
+          "focalX": 50,
+          "focalY": 50,
+          "sizes": {
+            "thumbnail": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "card": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "hero": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            }
+          }
+        },
+        {
+          "id": 13,
+          "alt": "सेवा भारती सेवा कार्य",
+          "updatedAt": "2026-10-15T11:17:50.729Z",
+          "createdAt": "2026-10-15T11:17:50.729Z",
+          "url": "/media/gallery-6.png",
+          "thumbnailURL": "/media/gallery-6.png",
+          "filename": "gallery-6.png",
+          "mimeType": "image/png",
+          "filesize": 134447,
+          "width": 300,
+          "height": 200,
+          "focalX": 50,
+          "focalY": 50,
+          "sizes": {
+            "thumbnail": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "card": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "hero": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            }
+          }
+        },
+        {
+          "id": 14,
+          "alt": "सेवा भारती कार्यक्रम",
+          "updatedAt": "2026-10-15T11:17:50.734Z",
+          "createdAt": "2026-10-15T11:17:50.734Z",
+          "url": "/media/gallery-7.png",
+          "thumbnailURL": "/media/gallery-7.png",
+          "filename": "gallery-7.png",
+          "mimeType": "image/png",
+          "filesize": 160057,
+          "width": 300,
+          "height": 200,
+          "focalX": 50,
+          "focalY": 50,
+          "sizes": {
+            "thumbnail": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "card": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "hero": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            }
+          }
+        }
+      ],
+      "guests": [
+        {
+          "id": "6ad0bca3200654d3d9637a79",
+          "name": "श्री रमेश चंद्र",
+          "designation": "मुख्य अतिथि",
+          "testimonial": "सेवा परमो धर्मः के भाव से संचालित ये सामूहिक विवाह आयोजन समाज में समरसता एवं एकता का संदेश देते हैं। सेवा भारती की टीम को हार्दिक बधाई।",
+          "photo": null
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a7a",
+          "name": "श्रीमती कमला देवी",
+          "designation": "विशिष्ट अतिथि",
+          "testimonial": "सादगीपूर्ण सामूहिक विवाह से अनेक परिवारों को सहारा मिलता है। यह आयोजन सामाजिक समरसता का उत्तम उदाहरण है।",
+          "photo": null
+        }
+      ],
+      "seo": {
+        "metaTitle": null,
+        "metaDescription": null
+      },
+      "updatedAt": "2026-10-15T11:44:35.086Z",
+      "createdAt": "2026-10-15T11:17:50.839Z",
+      "_status": "published"
+    },
+    {
+      "id": 2,
+      "titleHi": "बाल संस्कार केंद्र अवलोकन — केसरपुरा (शिवगंज), सिरोही",
+      "titleEn": "Bal Sanskar Kendra Observation — Kesarpura, Sirohi",
+      "slug": "kesarpura-bal-sanskar-kendra",
+      "date": "2021-02-04T12:00:00.000Z",
+      "location": "Kesarpura (Shivganj), Sirohi, Rajasthan",
+      "summaryHi": "रानीवाड़ा द्वारा संचालित बाल संस्कार केंद्र का अधिकारियों द्वारा अवलोकन किया गया। बालकों को गीत, प्रार्थना एवं खेलों का अभ्यास कराया गया।",
+      "coverImage": {
+        "id": 2,
+        "alt": "सेवा भारती बाल संस्कार केंद्र, सिरोही",
+        "updatedAt": "2026-10-15T11:17:50.639Z",
+        "createdAt": "2026-10-15T11:17:50.639Z",
+        "url": "/media/event-balsanskar.jpg",
+        "thumbnailURL": "/media/event-balsanskar-400x533.jpg",
+        "filename": "event-balsanskar.jpg",
+        "mimeType": "image/jpeg",
+        "filesize": 243930,
+        "width": 960,
+        "height": 1280,
+        "focalX": 50,
+        "focalY": 50,
+        "sizes": {
+          "thumbnail": {
+            "url": "/media/event-balsanskar-400x533.jpg",
+            "width": 400,
+            "height": 533,
+            "mimeType": "image/jpeg",
+            "filesize": 63116,
+            "filename": "event-balsanskar-400x533.jpg"
+          },
+          "card": {
+            "url": "/media/event-balsanskar-900x1200.jpg",
+            "width": 900,
+            "height": 1200,
+            "mimeType": "image/jpeg",
+            "filesize": 247678,
+            "filename": "event-balsanskar-900x1200.jpg"
+          },
+          "hero": {
+            "url": null,
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          }
+        }
+      },
+      "content": {
+        "root": {
+          "type": "root",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "type": "paragraph",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "children": [
+                {
+                  "mode": "normal",
+                  "text": "सेवा भारती समिति द्वारा संचालित बाल संस्कार केंद्र, केसरपुरा (शिवगंज), सिरोही का अधिकारियों द्वारा अवलोकन किया गया।",
+                  "type": "text",
+                  "style": "",
+                  "detail": 0,
+                  "format": 0,
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "textStyle": "",
+              "textFormat": 0
+            },
+            {
+              "type": "paragraph",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "children": [
+                {
+                  "mode": "normal",
+                  "text": "इस अवसर पर बालकों को गीत, प्रार्थना एवं खेलों का अभ्यास कराया गया तथा उन्हें अच्छे संस्कार एवं शिक्षा के महत्व से अवगत कराया गया।",
+                  "type": "text",
+                  "style": "",
+                  "detail": 0,
+                  "format": 0,
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "textStyle": "",
+              "textFormat": 0
+            },
+            {
+              "type": "paragraph",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "children": [
+                {
+                  "mode": "normal",
+                  "text": "बाल संस्कार केंद्र वंचित बस्तियों के बच्चों को प्रारंभिक शिक्षा एवं संस्कार प्रदान कर उन्हें मुख्यधारा से जोड़ने का कार्य करते हैं।",
+                  "type": "text",
+                  "style": "",
+                  "detail": 0,
+                  "format": 0,
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "textStyle": "",
+              "textFormat": 0
+            }
+          ],
+          "direction": "ltr"
+        }
+      },
+      "photos": [
+        {
+          "id": 2,
+          "alt": "सेवा भारती बाल संस्कार केंद्र, सिरोही",
+          "updatedAt": "2026-10-15T11:17:50.639Z",
+          "createdAt": "2026-10-15T11:17:50.639Z",
+          "url": "/media/event-balsanskar.jpg",
+          "thumbnailURL": "/media/event-balsanskar-400x533.jpg",
+          "filename": "event-balsanskar.jpg",
+          "mimeType": "image/jpeg",
+          "filesize": 243930,
+          "width": 960,
+          "height": 1280,
+          "focalX": 50,
+          "focalY": 50,
+          "sizes": {
+            "thumbnail": {
+              "url": "/media/event-balsanskar-400x533.jpg",
+              "width": 400,
+              "height": 533,
+              "mimeType": "image/jpeg",
+              "filesize": 63116,
+              "filename": "event-balsanskar-400x533.jpg"
+            },
+            "card": {
+              "url": "/media/event-balsanskar-900x1200.jpg",
+              "width": 900,
+              "height": 1200,
+              "mimeType": "image/jpeg",
+              "filesize": 247678,
+              "filename": "event-balsanskar-900x1200.jpg"
+            },
+            "hero": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            }
+          }
+        },
+        {
+          "id": 11,
+          "alt": "सेवा भारती गतिविधि",
+          "updatedAt": "2026-10-15T11:17:50.707Z",
+          "createdAt": "2026-10-15T11:17:50.707Z",
+          "url": "/media/gallery-4.png",
+          "thumbnailURL": "/media/gallery-4.png",
+          "filename": "gallery-4.png",
+          "mimeType": "image/png",
+          "filesize": 141417,
+          "width": 300,
+          "height": 200,
+          "focalX": 50,
+          "focalY": 50,
+          "sizes": {
+            "thumbnail": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "card": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "hero": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            }
+          }
+        },
+        {
+          "id": 15,
+          "alt": "सेवा भारती गतिविधि",
+          "updatedAt": "2026-10-15T11:17:50.739Z",
+          "createdAt": "2026-10-15T11:17:50.739Z",
+          "url": "/media/gallery-8.png",
+          "thumbnailURL": "/media/gallery-8.png",
+          "filename": "gallery-8.png",
+          "mimeType": "image/png",
+          "filesize": 128992,
+          "width": 300,
+          "height": 200,
+          "focalX": 50,
+          "focalY": 50,
+          "sizes": {
+            "thumbnail": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "card": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "hero": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            }
+          }
+        }
+      ],
+      "guests": [
+        {
+          "id": "6ad0bca3200654d3d9637a77",
+          "name": "डॉ. सुनीता अग्रवाल",
+          "designation": "विशिष्ट अतिथि",
+          "testimonial": "निशुल्क शिक्षा एवं बाल संस्कार के माध्यम से जिस निष्ठा से कार्यकर्ता सेवा कर रहे हैं, वह अनुकरणीय है। मुझे इस आयोजन का हिस्सा बनकर प्रसन्नता हुई।",
+          "photo": null
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a78",
+          "name": "श्री गोपाल सिंह",
+          "designation": "मुख्य अतिथि",
+          "testimonial": "बाल संस्कार केंद्र वंचित बच्चों के उज्ज्वल भविष्य की नींव रखते हैं। सेवा भारती के कार्यकर्ताओं का समर्पण प्रेरणादायक है।",
+          "photo": null
+        }
+      ],
+      "seo": {
+        "metaTitle": null,
+        "metaDescription": null
+      },
+      "updatedAt": "2026-10-15T11:44:35.077Z",
+      "createdAt": "2026-10-15T11:17:50.832Z",
+      "_status": "published"
+    },
+    {
+      "id": 1,
+      "titleHi": "सेवा भारती किशनगढ़ चिकित्सा शिविर",
+      "titleEn": "Sewa Bharti Kishangarh Medical Camp",
+      "slug": "kishangarh-chikitsa-shivir",
+      "date": "2021-01-02T12:00:00.000Z",
+      "location": "Kishangarh / Jaipur, Rajasthan",
+      "summaryHi": "सेवा भारती किशनगढ़ एवं आयुष क्लिनिक जयपुर के संयुक्त तत्वावधान में निशुल्क आयुर्वेदिक चिकित्सा शिविर आयोजित किया गया, जिसमें लगभग 80 रोगी लाभान्वित हुए।",
+      "coverImage": {
+        "id": 3,
+        "alt": "सेवा भारती स्वास्थ्य एवं जागरूकता गतिविधि",
+        "updatedAt": "2026-10-15T11:17:50.646Z",
+        "createdAt": "2026-10-15T11:17:50.646Z",
+        "url": "/media/event-health.jpg",
+        "thumbnailURL": "/media/event-health.jpg",
+        "filename": "event-health.jpg",
+        "mimeType": "image/jpeg",
+        "filesize": 110830,
+        "width": 330,
+        "height": 295,
+        "focalX": 50,
+        "focalY": 50,
+        "sizes": {
+          "thumbnail": {
+            "url": null,
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "card": {
+            "url": null,
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          },
+          "hero": {
+            "url": null,
+            "width": null,
+            "height": null,
+            "mimeType": null,
+            "filesize": null,
+            "filename": null
+          }
+        }
+      },
+      "content": {
+        "root": {
+          "type": "root",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "type": "paragraph",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "children": [
+                {
+                  "mode": "normal",
+                  "text": "सेवा भारती किशनगढ़ एवं आयुष क्लिनिक जयपुर के संयुक्त तत्वावधान में एक विशाल निशुल्क आयुर्वेदिक चिकित्सा शिविर का आयोजन किया गया। शिविर का शुभारंभ भगवान धन्वंतरी के पूजन एवं दीप प्रज्वलन के साथ हुआ।",
+                  "type": "text",
+                  "style": "",
+                  "detail": 0,
+                  "format": 0,
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "textStyle": "",
+              "textFormat": 0
+            },
+            {
+              "type": "paragraph",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "children": [
+                {
+                  "mode": "normal",
+                  "text": "शिविर में वरिष्ठ चिकित्सकों द्वारा रोगियों की जाँच कर निशुल्क परामर्श एवं औषधि वितरण किया गया। इस अवसर पर लगभग 80 रोगी लाभान्वित हुए।",
+                  "type": "text",
+                  "style": "",
+                  "detail": 0,
+                  "format": 0,
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "textStyle": "",
+              "textFormat": 0
+            },
+            {
+              "type": "paragraph",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "children": [
+                {
+                  "mode": "normal",
+                  "text": "सेवा भारती का उद्देश्य समाज के प्रत्येक वर्ग तक सुलभ एवं निशुल्क स्वास्थ्य सेवा पहुँचाना है, जिससे कोई भी आवश्यक चिकित्सा से वंचित न रहे।",
+                  "type": "text",
+                  "style": "",
+                  "detail": 0,
+                  "format": 0,
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "textStyle": "",
+              "textFormat": 0
+            }
+          ],
+          "direction": "ltr"
+        }
+      },
+      "photos": [
+        {
+          "id": 3,
+          "alt": "सेवा भारती स्वास्थ्य एवं जागरूकता गतिविधि",
+          "updatedAt": "2026-10-15T11:17:50.646Z",
+          "createdAt": "2026-10-15T11:17:50.646Z",
+          "url": "/media/event-health.jpg",
+          "thumbnailURL": "/media/event-health.jpg",
+          "filename": "event-health.jpg",
+          "mimeType": "image/jpeg",
+          "filesize": 110830,
+          "width": 330,
+          "height": 295,
+          "focalX": 50,
+          "focalY": 50,
+          "sizes": {
+            "thumbnail": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "card": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "hero": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            }
+          }
+        },
+        {
+          "id": 16,
+          "alt": "सेवा भारती सेवा कार्य",
+          "updatedAt": "2026-10-15T11:17:50.744Z",
+          "createdAt": "2026-10-15T11:17:50.744Z",
+          "url": "/media/gallery-9.png",
+          "thumbnailURL": "/media/gallery-9.png",
+          "filename": "gallery-9.png",
+          "mimeType": "image/png",
+          "filesize": 117922,
+          "width": 300,
+          "height": 200,
+          "focalX": 50,
+          "focalY": 50,
+          "sizes": {
+            "thumbnail": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "card": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "hero": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            }
+          }
+        },
+        {
+          "id": 6,
+          "alt": "सेवा भारती कार्यक्रम",
+          "updatedAt": "2026-10-15T11:17:50.659Z",
+          "createdAt": "2026-10-15T11:17:50.659Z",
+          "url": "/media/gallery-10.png",
+          "thumbnailURL": "/media/gallery-10.png",
+          "filename": "gallery-10.png",
+          "mimeType": "image/png",
+          "filesize": 142583,
+          "width": 300,
+          "height": 200,
+          "focalX": 50,
+          "focalY": 50,
+          "sizes": {
+            "thumbnail": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "card": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            },
+            "hero": {
+              "url": null,
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null
+            }
+          }
+        }
+      ],
+      "guests": [
+        {
+          "id": "6ad0bca3200654d3d9637a75",
+          "name": "श्री मोहनलाल शर्मा",
+          "designation": "मुख्य अतिथि",
+          "testimonial": "सेवा भारती द्वारा आयोजित यह निशुल्क चिकित्सा शिविर समाज के वंचित वर्ग के लिए वरदान है। ऐसे सेवा कार्य अनुकरणीय एवं प्रेरणादायक हैं।",
+          "photo": null
+        },
+        {
+          "id": "6ad0bca3200654d3d9637a76",
+          "name": "डॉ. प्रकाश वैद्य",
+          "designation": "वरिष्ठ चिकित्सक",
+          "testimonial": "निशुल्क आयुर्वेदिक परामर्श से अनेक रोगियों को लाभ मिला। सेवा भारती का यह प्रयास स्वास्थ्य सेवा को जन-जन तक पहुँचाने की दिशा में सराहनीय है।",
+          "photo": null
+        }
+      ],
+      "seo": {
+        "metaTitle": null,
+        "metaDescription": null
+      },
+      "updatedAt": "2026-10-15T11:44:35.067Z",
+      "createdAt": "2026-10-15T11:17:50.820Z",
+      "_status": "published"
+    }
+  ]
+}
