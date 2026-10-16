@@ -18,7 +18,9 @@ import { pillars as pillarData } from "./data/pillars";
 import { events as eventData, galleryImages, mainGuests } from "./data/events";
 
 const ctx = { disableRevalidate: true };
-const PUBLIC_DIR = path.resolve(process.cwd(), "public");
+// Seed images live in the frontend app (frontend/public/events, frontend/public/logo.png).
+// Run the seed from backend/ inside the full repo checkout.
+const PUBLIC_DIR = path.resolve(process.cwd(), "../frontend/public");
 const GENERIC_ALT = "सेवा भारती गतिविधि";
 
 // ---------------------------------------------------------------------------
