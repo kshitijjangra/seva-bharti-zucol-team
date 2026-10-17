@@ -301,9 +301,9 @@ function globalsData(media: MediaIndex): Record<string, Record<string, unknown>>
       ],
       pillarsHeading: { eyebrow: "Our Four Pillars", title: "हमारे चार आयाम" },
       eventsTeaser: {
-        title: "सेवा गतिविधियाँ",
+        title: "कुछ सेवा गतिविधियाँ",
         text: "राज्य भर में संचालित सेवा कार्यों की एक झलक।",
-        cta: { label: "कार्यक्रम देखें", href: "/events" },
+        cta: { label: "और देखने के लिए यहाँ क्लिक करें", href: "/events" },
       },
     },
 

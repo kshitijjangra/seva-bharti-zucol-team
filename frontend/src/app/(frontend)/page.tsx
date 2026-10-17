@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import EventCard from "@/components/EventCard";
 import PillarCard from "@/components/PillarCard";
 import StatCounter from "@/components/StatCounter";
 import SectionHeading from "@/components/SectionHeading";
-import { getGlobal, getPillars, mediaAlt, mediaUrl } from "@/lib/cms";
+import { getEvents, getGlobal, getPillars, mediaAlt, mediaUrl } from "@/lib/cms";
 import { siteLogo } from "@/lib/site-data";
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -16,11 +17,13 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default async function HomePage() {
-  const [home, settings, ui, pillars] = await Promise.all([
+  const [home, settings, ui, pillars, events, eventsPage] = await Promise.all([
     getGlobal("home-page"),
     getGlobal("site-settings"),
     getGlobal("ui-strings"),
     getPillars(),
+    getEvents(),
+    getGlobal("events-page"),
   ]);
 
   const hero = home?.hero;
@@ -32,6 +35,8 @@ export default async function HomePage() {
   const secondary = hero?.secondaryCta;
   const stats = home?.stats ?? [];
   const teaser = home?.eventsTeaser;
+  // A few of the latest published events, previewed on the home page.
+  const latestEvents = events.slice(0, 3);
 
   return (
     <>
@@ -158,30 +163,42 @@ export default async function HomePage() {
         </section>
       )}
 
-      {/* Events teaser */}
-      {teaser && (teaser.title || teaser.text || (teaser.cta?.label && teaser.cta.href)) && (
+      {/* Events teaser: heading, the latest events, then a link to all events */}
+      {teaser && (teaser.title || teaser.text || latestEvents.length > 0 || (teaser.cta?.label && teaser.cta.href)) && (
         <section className="bg-cream">
-          <div className="container-page flex flex-col items-start justify-between gap-4 py-10 sm:flex-row sm:items-center">
-            <div>
-              {teaser.title && (
-                <h2 lang="hi" className="text-2xl font-bold text-ink">
-                  {teaser.title}
-                </h2>
-              )}
-              {teaser.text && (
-                <p lang="hi" className="mt-1 text-ink-soft">
-                  {teaser.text}
-                </p>
-              )}
-            </div>
+          <div className="container-page py-12">
+            {(teaser.title || teaser.text) && (
+              <div>
+                {teaser.title && (
+                  <h2 lang="hi" className="text-2xl font-bold text-ink">
+                    {teaser.title}
+                  </h2>
+                )}
+                {teaser.text && (
+                  <p lang="hi" className="mt-1 text-ink-soft">
+                    {teaser.text}
+                  </p>
+                )}
+              </div>
+            )}
+            {latestEvents.length > 0 && (
+              <div className="mt-6 grid gap-6 md:grid-cols-3">
+                {latestEvents.map((e) => (
+                  <EventCard key={e.id} event={e} readMore={eventsPage?.readMoreLabel} />
+                ))}
+              </div>
+            )}
             {teaser.cta?.label && teaser.cta.href && (
-              <Link
-                href={teaser.cta.href}
-                lang="hi"
-                className="rounded-lg bg-sewablue-500 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-sewablue-600"
-              >
-                {teaser.cta.label}
-              </Link>
+              <div className="mt-8 flex justify-center">
+                <Link
+                  href={teaser.cta.href}
+                  lang="hi"
+                  className="group inline-flex items-center gap-2 rounded-lg bg-sewablue-500 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-sewablue-600"
+                >
+                  {teaser.cta.label}
+                  <span aria-hidden className="transition-transform group-hover:translate-x-1">→</span>
+                </Link>
+              </div>
             )}
           </div>
         </section>
