@@ -21,6 +21,17 @@ export const validateHttpsUrl = (value: unknown, opts?: { required?: boolean }):
   return /^https:\/\/[^\s\\]+$/i.test(value) ? true : "Must be an https:// URL.";
 };
 
+// YouTube video links (watch, youtu.be, embed, shorts). The frontend embeds
+// only the extracted 11-character video ID, never the raw URL.
+const YOUTUBE_RE =
+  /^https:\/\/(?:www\.|m\.)?(?:youtube\.com\/(?:watch\?(?:.*&)?v=|embed\/|shorts\/)|youtu\.be\/)[A-Za-z0-9_-]{11}(?:[?&#][^\s]*)?$/i;
+
+export const validateYouTubeUrl = (value: unknown): true | string => {
+  if (value == null || value === "") return true;
+  if (typeof value !== "string" || value.length > 300) return "URL is too long.";
+  return YOUTUBE_RE.test(value.trim()) ? true : "Paste a YouTube video link, e.g. https://www.youtube.com/watch?v=XXXXXXXXXXX";
+};
+
 export const hrefField = (
   overrides: Partial<TextField> & { name?: string } = {},
 ): TextField => ({

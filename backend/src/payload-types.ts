@@ -805,6 +805,66 @@ export interface HomePage {
         id?: string | null;
       }[]
     | null;
+  /**
+   * A story with a video, shown above the pillars section. Untick “Show” to hide it.
+   */
+  featuredStory?: {
+    enabled?: boolean | null;
+    heading?: string | null;
+    /**
+     * Words inside the heading to show larger in saffron, e.g. सेवा भारती
+     */
+    headingHighlight?: string | null;
+    /**
+     * One line under the heading
+     */
+    intro?: string | null;
+    /**
+     * Shown on the home page. Bold words appear in saffron.
+     */
+    excerpt?: {
+      root: {
+        type: string;
+        children: {
+          type: any;
+          version: number;
+          [k: string]: unknown;
+        }[];
+        direction: ('ltr' | 'rtl') | null;
+        format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+        indent: number;
+        version: number;
+      };
+      [k: string]: unknown;
+    } | null;
+    /**
+     * Opens in a popup when the button is clicked. Bold words appear in saffron.
+     */
+    story?: {
+      root: {
+        type: string;
+        children: {
+          type: any;
+          version: number;
+          [k: string]: unknown;
+        }[];
+        direction: ('ltr' | 'rtl') | null;
+        format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+        indent: number;
+        version: number;
+      };
+      [k: string]: unknown;
+    } | null;
+    readMoreLabel?: string | null;
+    /**
+     * e.g. https://www.youtube.com/watch?v=zJgM7UGn8JI
+     */
+    videoUrl?: string | null;
+    /**
+     * Short description of the video (for screen readers)
+     */
+    videoTitle?: string | null;
+  };
   pillarsHeading: {
     eyebrow?: string | null;
     title: string;
@@ -1135,6 +1195,19 @@ export interface HomePageSelect<T extends boolean = true> {
         animate?: T;
         label?: T;
         id?: T;
+      };
+  featuredStory?:
+    | T
+    | {
+        enabled?: T;
+        heading?: T;
+        headingHighlight?: T;
+        intro?: T;
+        excerpt?: T;
+        story?: T;
+        readMoreLabel?: T;
+        videoUrl?: T;
+        videoTitle?: T;
       };
   pillarsHeading?:
     | T

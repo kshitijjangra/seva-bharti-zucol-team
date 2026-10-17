@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import EventCard from "@/components/EventCard";
+import FeaturedStory from "@/components/FeaturedStory";
 import PillarCard from "@/components/PillarCard";
 import StatCounter from "@/components/StatCounter";
 import SectionHeading from "@/components/SectionHeading";
@@ -154,6 +155,9 @@ export default async function HomePage() {
           </div>
         </section>
       )}
+
+      {/* Featured story with video (Home Page → Featured story) */}
+      <FeaturedStory story={home?.featuredStory} />
 
       {/* Four pillars */}
       {pillars.length > 0 && (

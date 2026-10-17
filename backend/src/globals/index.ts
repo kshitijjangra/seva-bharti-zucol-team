@@ -7,6 +7,7 @@ import {
   sectionHeadingField,
   seoField,
   validateHttpsUrl,
+  validateYouTubeUrl,
 } from "@/fields";
 import { revalidateGlobal } from "@/hooks/revalidate";
 
@@ -230,6 +231,45 @@ export const HomePage: GlobalConfig = {
           ],
         },
         { name: "label", type: "text", required: true, maxLength: 80 },
+      ],
+    },
+    {
+      name: "featuredStory",
+      type: "group",
+      label: "Featured story (above the pillars)",
+      admin: { description: "A story with a video, shown above the pillars section. Untick “Show” to hide it." },
+      fields: [
+        { name: "enabled", type: "checkbox", label: "Show", defaultValue: true },
+        { name: "heading", type: "textarea", maxLength: 600 },
+        {
+          name: "headingHighlight",
+          type: "text",
+          maxLength: 80,
+          admin: { description: "Words inside the heading to show larger in saffron, e.g. सेवा भारती" },
+        },
+        { name: "intro", type: "text", maxLength: 300, admin: { description: "One line under the heading" } },
+        {
+          name: "excerpt",
+          type: "richText",
+          label: "Short text",
+          admin: { description: "Shown on the home page. Bold words appear in saffron." },
+        },
+        {
+          name: "story",
+          type: "richText",
+          label: "Full story",
+          admin: { description: "Opens in a popup when the button is clicked. Bold words appear in saffron." },
+        },
+        { name: "readMoreLabel", type: "text", maxLength: 60, defaultValue: "पूरा पढ़ें", label: "Button text" },
+        {
+          name: "videoUrl",
+          type: "text",
+          maxLength: 300,
+          label: "YouTube video link",
+          validate: validateYouTubeUrl,
+          admin: { description: "e.g. https://www.youtube.com/watch?v=zJgM7UGn8JI" },
+        },
+        { name: "videoTitle", type: "text", maxLength: 200, admin: { description: "Short description of the video (for screen readers)" } },
       ],
     },
     sectionHeadingField("pillarsHeading", "Pillars section heading"),

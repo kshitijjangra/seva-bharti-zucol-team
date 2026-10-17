@@ -15,6 +15,8 @@ import config from "@payload-config";
 
 import { site } from "./data/site";
 import { pillars as pillarData } from "./data/pillars";
+import { lexical } from "./lexical";
+import { featuredStory } from "./data/featured-story";
 import { events as eventData, galleryImages, mainGuests } from "./data/events";
 
 const ctx = { disableRevalidate: true };
@@ -27,33 +29,6 @@ const GENERIC_ALT = "सेवा भारती गतिविधि";
 // Lexical helpers
 // ---------------------------------------------------------------------------
 
-function paragraph(text: string) {
-  return {
-    type: "paragraph",
-    version: 1,
-    direction: "ltr" as const,
-    format: "" as const,
-    indent: 0,
-    textFormat: 0,
-    textStyle: "",
-    children: [
-      { type: "text", version: 1, detail: 0, format: 0, mode: "normal", style: "", text },
-    ],
-  };
-}
-
-function lexical(paragraphs: readonly string[]) {
-  return {
-    root: {
-      type: "root",
-      version: 1,
-      direction: "ltr" as const,
-      format: "" as const,
-      indent: 0,
-      children: paragraphs.map(paragraph),
-    },
-  };
-}
 
 // ---------------------------------------------------------------------------
 // Media
@@ -300,6 +275,17 @@ function globalsData(media: MediaIndex): Record<string, Record<string, unknown>>
         { value: "80G", suffix: "", animate: false, label: "आयकर छूट प्राप्त" },
       ],
       pillarsHeading: { eyebrow: "Our Four Pillars", title: "हमारे चार आयाम" },
+      featuredStory: {
+        enabled: true,
+        heading: featuredStory.heading,
+        headingHighlight: featuredStory.headingHighlight,
+        intro: featuredStory.intro,
+        excerpt: lexical(featuredStory.excerpt),
+        story: lexical(featuredStory.story),
+        readMoreLabel: featuredStory.readMoreLabel,
+        videoUrl: featuredStory.videoUrl,
+        videoTitle: featuredStory.videoTitle,
+      },
       eventsTeaser: {
         title: "कुछ सेवा गतिविधियाँ",
         text: "राज्य भर में संचालित सेवा कार्यों की एक झलक।",
