@@ -40,8 +40,11 @@ export default function FeaturedStory({ story }: { story: Story | null | undefin
   if (!hasText && !videoId) return null;
 
   return (
-    <section className="container-page py-12 md:py-14">
-      <div className={`grid items-center gap-8 ${hasText && videoId ? "lg:grid-cols-2 lg:gap-12" : ""}`}>
+    <section className="container-page">
+      {/* Thin rule at the bottom separates the story from the pillars section. */}
+      <div
+        className={`grid items-center gap-8 border-b border-saffron-200/70 py-12 md:py-14 ${hasText && videoId ? "lg:grid-cols-2 lg:gap-12" : ""}`}
+      >
         {hasText && (
           <div>
             {story.heading && (

@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import EventCard from "@/components/EventCard";
 import FeaturedStory from "@/components/FeaturedStory";
+import { DEFAULT_FEATURED_STORY } from "@/content/featured-story-default";
 import PillarCard from "@/components/PillarCard";
 import StatCounter from "@/components/StatCounter";
 import SectionHeading from "@/components/SectionHeading";
@@ -157,7 +158,8 @@ export default async function HomePage() {
       )}
 
       {/* Featured story with video (Home Page → Featured story) */}
-      <FeaturedStory story={home?.featuredStory} />
+      {/* CMS content when the CMS has the fields; bundled default until then. */}
+      <FeaturedStory story={home && "featuredStory" in home ? home.featuredStory : DEFAULT_FEATURED_STORY} />
 
       {/* Four pillars */}
       {pillars.length > 0 && (
