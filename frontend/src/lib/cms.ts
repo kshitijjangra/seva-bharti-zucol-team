@@ -22,24 +22,53 @@ const CMS_URL = (process.env.CMS_URL || "http://localhost:3001").replace(/\/+$/,
 
 const SNAPSHOT = process.env.CMS_SNAPSHOT === "1";
 
+// Fail fast with a clear message instead of confusing prerender errors:
+// a production build without CMS_URL would silently fall back to localhost.
+if (!SNAPSHOT && process.env.NODE_ENV === "production") {
+  if (!process.env.CMS_URL) {
+    throw new Error(
+      "CMS_URL is not set. Set it to the CMS backend URL, e.g. https://sewabharti-cms-api.zucol.in (or build with CMS_SNAPSHOT=1).",
+    );
+  }
+  if (new URL(CMS_URL).pathname !== "/") {
+    throw new Error(`CMS_URL must be the backend origin only, without a path (got "${CMS_URL}").`);
+  }
+}
+
 const TIMEOUT_MS = 10_000;
 
 type Snapshot = { globals: Record<string, unknown>; pillars: Pillar[]; events: Event[] };
 const loadSnapshot = async () =>
   (await import("@/content-snapshot/data.json")).default as unknown as Snapshot;
 
-/** GET `${CMS_URL}${path}` as JSON. Throws on network errors / non-OK responses. */
+const RETRY_DELAYS_MS = [400, 1200]; // up to 3 attempts in total
+
+/** GET `${CMS_URL}${path}` as JSON. Retries network errors, 429 and 5xx; throws otherwise. */
 async function cmsFetch<T>(path: string): Promise<T> {
   const headers: Record<string, string> = { Accept: "application/json" };
   const key = process.env.FRONTEND_API_KEY;
   if (key) headers["x-frontend-key"] = key;
-  const res = await fetch(`${CMS_URL}${path}`, {
-    headers,
-    signal: AbortSignal.timeout(TIMEOUT_MS),
-  });
-  // Status only — never echo headers, keys or response bodies.
-  if (!res.ok) throw new Error(`CMS responded ${res.status} for ${path.split("?")[0]}`);
-  return (await res.json()) as T;
+
+  for (let attempt = 0; ; attempt++) {
+    let res: Response | undefined;
+    try {
+      res = await fetch(`${CMS_URL}${path}`, { headers, signal: AbortSignal.timeout(TIMEOUT_MS) });
+    } catch (err) {
+      // Network / TLS / timeout error — retry, then give up.
+      if (attempt < RETRY_DELAYS_MS.length) {
+        await new Promise((r) => setTimeout(r, RETRY_DELAYS_MS[attempt]));
+        continue;
+      }
+      throw err;
+    }
+    if ((res.status === 429 || res.status >= 500) && attempt < RETRY_DELAYS_MS.length) {
+      await new Promise((r) => setTimeout(r, RETRY_DELAYS_MS[attempt]));
+      continue;
+    }
+    // Status only — never echo headers, keys or response bodies.
+    if (!res.ok) throw new Error(`CMS responded ${res.status} for ${path.split("?")[0]}`);
+    return (await res.json()) as T;
+  }
 }
 
 async function safe<T>(label: string, fallback: T, fn: () => Promise<T>): Promise<T> {
