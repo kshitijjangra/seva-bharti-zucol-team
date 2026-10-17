@@ -31,6 +31,8 @@ const nextConfig: NextConfig = {
       { pathname: "/api/media/file/**" },
       { pathname: "/logo.png" },
       { pathname: "/events/**" },
+      // Static home-page sections (उद्देश्य / Vision).
+      { pathname: "/home/**" },
       // Static media for snapshot ("frontend only") deploys.
       { pathname: "/media/**" },
     ],

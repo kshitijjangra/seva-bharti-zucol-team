@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import DonateSection from "@/components/DonateSection";
 import EventCard from "@/components/EventCard";
 import FeaturedStory from "@/components/FeaturedStory";
+import MissionVision from "@/components/MissionVision";
+import QuoteCarousel from "@/components/QuoteCarousel";
 import { DEFAULT_FEATURED_STORY } from "@/content/featured-story-default";
 import PillarCard from "@/components/PillarCard";
 import StatCounter from "@/components/StatCounter";
@@ -179,6 +182,12 @@ export default async function HomePage() {
         </section>
       )}
 
+      {/* हमारा उद्देश्य + Vision (static, from the live site) */}
+      <MissionVision />
+
+      {/* Quotes carousel (auto-advancing, from the live site) */}
+      <QuoteCarousel />
+
       {/* Events teaser: heading, the latest events, then a link to all events */}
       {teaser && (teaser.title || teaser.text || latestEvents.length > 0 || (teaser.cta?.label && teaser.cta.href)) && (
         <section className="bg-cream">
@@ -219,6 +228,9 @@ export default async function HomePage() {
           </div>
         </section>
       )}
+
+      {/* सहयोग करें: ways to help + bank details (static, from the live site) */}
+      <DonateSection />
     </>
   );
 }
