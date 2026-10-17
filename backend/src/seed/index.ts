@@ -303,7 +303,7 @@ function globalsData(media: MediaIndex): Record<string, Record<string, unknown>>
       eventsTeaser: {
         title: "कुछ सेवा गतिविधियाँ",
         text: "राज्य भर में संचालित सेवा कार्यों की एक झलक।",
-        cta: { label: "और देखने के लिए यहाँ क्लिक करें", href: "/events" },
+        cta: { label: "बाकी सभी सेवा गतिविधियाँ यहाँ देखें", href: "/events" },
       },
     },
 
