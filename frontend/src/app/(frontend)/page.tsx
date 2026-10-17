@@ -34,7 +34,17 @@ export default async function HomePage() {
   const primary = hero?.primaryCta;
   const secondary = hero?.secondaryCta;
   const stats = home?.stats ?? [];
-  const teaser = home?.eventsTeaser;
+  // The original seed wording is replaced by the newer copy; any other text
+  // set in the CMS (Home Page → Events Teaser) is shown as-is.
+  const rawTeaser = home?.eventsTeaser;
+  const teaser = rawTeaser && {
+    ...rawTeaser,
+    title: rawTeaser.title === "सेवा गतिविधियाँ" ? "कुछ सेवा गतिविधियाँ" : rawTeaser.title,
+    cta: rawTeaser.cta && {
+      ...rawTeaser.cta,
+      label: rawTeaser.cta.label === "कार्यक्रम देखें" ? "बाकी सभी सेवा गतिविधियाँ यहाँ देखें" : rawTeaser.cta.label,
+    },
+  };
   // A few of the latest published events, previewed on the home page.
   const latestEvents = events.slice(0, 3);
 
